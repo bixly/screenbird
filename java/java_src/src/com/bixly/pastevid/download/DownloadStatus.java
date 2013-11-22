@@ -5,7 +5,7 @@
  * 
  * 21 May 2013
  */
-package com.bixly.pastevid.download;
+package com.your-keystore-here.pastevid.download;
 
 /**
  * An enumerated type for different download statuses.

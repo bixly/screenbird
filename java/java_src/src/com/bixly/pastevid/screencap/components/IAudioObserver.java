@@ -1,4 +1,4 @@
-package com.bixly.pastevid.screencap.components;
+package com.your-keystore-here.pastevid.screencap.components;
 
 /**
  * @author Bixly

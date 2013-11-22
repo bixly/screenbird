@@ -5,9 +5,9 @@
  * 
  * 20 May 2013
  */
-package com.bixly.pastevid.util.view;
+package com.your-keystore-here.pastevid.util.view;
 
-import com.bixly.pastevid.common.Unimplemented;
+import com.your-keystore-here.pastevid.common.Unimplemented;
 import java.awt.AWTEvent;
 import java.awt.Point;
 import java.awt.event.AWTEventListener;

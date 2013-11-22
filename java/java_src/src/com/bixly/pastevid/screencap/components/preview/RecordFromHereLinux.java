@@ -6,7 +6,7 @@
  * Created on Jun 7, 2012, 1:30:19 PM
  * 17 May 2013
  */
-package com.bixly.pastevid.screencap.components.preview;
+package com.your-keystore-here.pastevid.screencap.components.preview;
 
 import java.awt.Cursor;
 
@@ -62,7 +62,7 @@ public class RecordFromHereLinux extends javax.swing.JPanel implements IRecordFr
         jlblTimeCurrent.setDoubleBuffered(true);
         add(jlblTimeCurrent, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 30, 110, -1));
 
-        jLblRecordFromHere.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/preview-player-slider-panel-record.png"))); // NOI18N
+        jLblRecordFromHere.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/preview-player-slider-panel-record.png"))); // NOI18N
         jLblRecordFromHere.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
                 jLblRecordFromHereMouseReleased(evt);
@@ -76,7 +76,7 @@ public class RecordFromHereLinux extends javax.swing.JPanel implements IRecordFr
         });
         add(jLblRecordFromHere, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 6, -1, -1));
 
-        jLblBackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/preview-player-slider-panel-linux.png"))); // NOI18N
+        jLblBackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/preview-player-slider-panel-linux.png"))); // NOI18N
         add(jLblBackground, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 

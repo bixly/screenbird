@@ -5,10 +5,10 @@
  * 
  * 17 May 2013
  */
-package com.bixly.pastevid.util;
+package com.your-keystore-here.pastevid.util;
 
-import com.bixly.pastevid.structs.Queue;
-import com.bixly.pastevid.Settings;
+import com.your-keystore-here.pastevid.structs.Queue;
+import com.your-keystore-here.pastevid.Settings;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

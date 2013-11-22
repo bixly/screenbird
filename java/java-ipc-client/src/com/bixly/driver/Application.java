@@ -2,12 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.driver;
+package com.your-keystore-here.driver;
 
-import com.bixly.ipc.IPCManager;
-import com.bixly.pastevid.PastevidProtocol;
-import com.bixly.util.RandomUtil;
-import com.bixly.util.TimeUtil;
+import com.your-keystore-here.ipc.IPCManager;
+import com.your-keystore-here.pastevid.PastevidProtocol;
+import com.your-keystore-here.util.RandomUtil;
+import com.your-keystore-here.util.TimeUtil;
 
 /**
  *

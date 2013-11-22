@@ -19,9 +19,9 @@
  */
 package com.bric.qt.io;
 
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.MediaUtil;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.MediaUtil;
 import java.awt.Dimension;
 import java.awt.image.BufferedImage;
 import java.io.File;

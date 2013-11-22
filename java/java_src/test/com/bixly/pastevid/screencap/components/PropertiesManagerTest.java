@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.screencap.components;
+package com.your-keystore-here.pastevid.screencap.components;
 
 import org.junit.Ignore;
 import java.io.File;

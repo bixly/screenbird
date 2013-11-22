@@ -29,7 +29,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="com.bixly.pastevid.util.view.JRoundedPanel" name="jrpRecorderMessage">
+    <Container class="com.your-keystore-here.pastevid.util.view.JRoundedPanel" name="jrpRecorderMessage">
 
       <Layout>
         <DimensionLayout dim="0">

@@ -5,10 +5,10 @@
  * 
  * 20 May 2013
  */
-package com.bixly.pastevid.util.view;
+package com.your-keystore-here.pastevid.util.view;
 
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.ResourceUtil;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.ResourceUtil;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;

@@ -3,7 +3,7 @@
     <information>
         <title>PastevidRecorder</title>
         <vendor>Bixly</vendor>
-        <homepage href="www.bixly.com"/>
+        <homepage href="www.your-keystore-here.com"/>
         <description>PastevidRecorder</description>
         <description kind="short">PastevidRecorder</description>
 
@@ -25,7 +25,7 @@
 <jar href="lib/maclibs.jar"/>
 <jar href="lib/winlibs.jar"/>
 </resources>
-    <applet-desc height="1" main-class="com.bixly.pastevid.driver.Anonymous" name="PastevidRecorder" width="1">
+    <applet-desc height="1" main-class="com.your-keystore-here.pastevid.driver.Anonymous" name="PastevidRecorder" width="1">
 
     </applet-desc>
 </jnlp>

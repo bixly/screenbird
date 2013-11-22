@@ -2,14 +2,14 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.screencap;
+package com.your-keystore-here.pastevid.screencap;
 
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Toolkit;
 import javax.swing.JPanel;
 
-import com.bixly.pastevid.util.ResourceUtil;
+import com.your-keystore-here.pastevid.util.ResourceUtil;
 import java.awt.Color;
 
 /**

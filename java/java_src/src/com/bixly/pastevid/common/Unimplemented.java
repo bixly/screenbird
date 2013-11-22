@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.common;
+package com.your-keystore-here.pastevid.common;
 
 /**
  * Any class implementing this interface is currently not being used and is

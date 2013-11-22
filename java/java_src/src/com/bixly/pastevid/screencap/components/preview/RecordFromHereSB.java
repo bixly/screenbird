@@ -6,9 +6,9 @@
  * Created on Mar 29, 2012, 2:07:27 PM
  * 16 May 2013
  */
-package com.bixly.pastevid.screencap.components.preview;
+package com.your-keystore-here.pastevid.screencap.components.preview;
 
-import com.bixly.pastevid.util.ResourceUtil;
+import com.your-keystore-here.pastevid.util.ResourceUtil;
 import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.event.MouseEvent;
@@ -49,7 +49,7 @@ public class RecordFromHereSB extends javax.swing.JPanel
         setMinimumSize(new java.awt.Dimension(148, 34));
         setPreferredSize(new java.awt.Dimension(148, 34));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/preview/preview_slider_panel_normal.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/preview/preview_slider_panel_normal.png"))); // NOI18N
         jLabel1.setMaximumSize(new java.awt.Dimension(148, 34));
         jLabel1.setMinimumSize(new java.awt.Dimension(148, 34));
         jLabel1.setPreferredSize(new java.awt.Dimension(148, 34));

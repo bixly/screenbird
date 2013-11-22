@@ -1,5 +1,5 @@
 
-package com.bixly.pastevid.util.view;
+package com.your-keystore-here.pastevid.util.view;
 
 import java.io.FilterOutputStream;
 import java.io.IOException;

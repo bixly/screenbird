@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.ipc;
+package com.your-keystore-here.ipc;
 
-import com.bixly.util.LogUtil;
+import com.your-keystore-here.util.LogUtil;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.regex.Matcher;

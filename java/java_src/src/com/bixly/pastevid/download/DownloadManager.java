@@ -5,11 +5,11 @@
  * 
  * 21 May 2013
  */
-package com.bixly.pastevid.download;
+package com.your-keystore-here.pastevid.download;
 
-import com.bixly.pastevid.structs.Queue;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.TimeUtil;
+import com.your-keystore-here.pastevid.structs.Queue;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.TimeUtil;
 import java.util.HashMap;
 
 /**

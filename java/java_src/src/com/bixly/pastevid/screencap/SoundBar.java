@@ -5,9 +5,9 @@
  * 
  * 24 May 2013
  */
-package com.bixly.pastevid.screencap;
+package com.your-keystore-here.pastevid.screencap;
 
-import com.bixly.pastevid.util.ResourceUtil;
+import com.your-keystore-here.pastevid.util.ResourceUtil;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Toolkit;

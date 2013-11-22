@@ -5,9 +5,9 @@
  * 
  * 25 May 2013
  */
-package com.bixly.pastevid.screencap.components.inworks;
+package com.your-keystore-here.pastevid.screencap.components.inworks;
 
-import com.bixly.pastevid.common.Unimplemented;
+import com.your-keystore-here.pastevid.common.Unimplemented;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;

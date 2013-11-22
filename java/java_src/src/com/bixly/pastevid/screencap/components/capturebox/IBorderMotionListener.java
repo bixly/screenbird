@@ -5,7 +5,7 @@
  * 
  * 16 May 2013
  */
-package com.bixly.pastevid.screencap.components.capturebox;
+package com.your-keystore-here.pastevid.screencap.components.capturebox;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;

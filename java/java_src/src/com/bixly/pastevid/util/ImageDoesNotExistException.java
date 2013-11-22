@@ -5,7 +5,7 @@
  * 
  * 17 May 2013
  */
-package com.bixly.pastevid.util;
+package com.your-keystore-here.pastevid.util;
 
 /**
  * Custom exception for missing images.

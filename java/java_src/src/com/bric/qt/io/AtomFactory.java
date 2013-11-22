@@ -19,7 +19,7 @@
  */
 package com.bric.qt.io;
 
-import com.bixly.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.LogUtil;
 import java.awt.FileDialog;
 import java.awt.Frame;
 import java.io.ByteArrayInputStream;

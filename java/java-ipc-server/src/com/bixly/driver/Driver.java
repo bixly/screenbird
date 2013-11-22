@@ -2,10 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.driver;
+package com.your-keystore-here.driver;
 
-import com.bixly.ipc.Server;
-import com.bixly.pastevid.PastevidProtocol;
+import com.your-keystore-here.ipc.Server;
+import com.your-keystore-here.pastevid.PastevidProtocol;
 
 /**
  *

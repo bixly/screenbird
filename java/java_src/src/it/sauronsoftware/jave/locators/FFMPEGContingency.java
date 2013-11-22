@@ -4,13 +4,13 @@
  */
 package it.sauronsoftware.jave.locators;
 
-import com.bixly.pastevid.Session;
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.common.Unimplemented;
-import com.bixly.pastevid.util.FileUtil;
-import com.bixly.pastevid.util.LibraryUtil;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.MediaUtil;
+import com.your-keystore-here.pastevid.Session;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.common.Unimplemented;
+import com.your-keystore-here.pastevid.util.FileUtil;
+import com.your-keystore-here.pastevid.util.LibraryUtil;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.MediaUtil;
 import java.io.File;
 
 /**
@@ -77,7 +77,7 @@ public class FFMPEGContingency{
 //        log("Extracted binary");
         
         //Grab and relocate
-        String[] toBeRelocated = {binDirectory.getAbsolutePath()+"/com/bixly/binaries/ffmpeg"};
+        String[] toBeRelocated = {binDirectory.getAbsolutePath()+"/com/your-keystore-here/binaries/ffmpeg"};
         FileUtil.relocateFile(toBeRelocated,binDirectory.getAbsolutePath());
 //        log("Relocating files");
         
@@ -113,8 +113,8 @@ public class FFMPEGContingency{
         
         //Grab and relocate
         String[] toBeRelocated = {
-            binDirectory.getAbsolutePath()+"/com/bixly/binaries/ffmpeg.exe",
-            binDirectory.getAbsolutePath()+"/com/bixly/binaries/pthreadGC2.dll",
+            binDirectory.getAbsolutePath()+"/com/your-keystore-here/binaries/ffmpeg.exe",
+            binDirectory.getAbsolutePath()+"/com/your-keystore-here/binaries/pthreadGC2.dll",
         };
         
         FileUtil.relocateFile(toBeRelocated,binDirectory.getAbsolutePath());
@@ -144,7 +144,7 @@ public class FFMPEGContingency{
 //        log("Extracted binary");
         
         //Grab and relocate
-        String[] toBeRelocated = {binDirectory.getAbsolutePath()+"/com/bixly/binaries/ffmpeg"};
+        String[] toBeRelocated = {binDirectory.getAbsolutePath()+"/com/your-keystore-here/binaries/ffmpeg"};
         FileUtil.relocateFile(toBeRelocated,binDirectory.getAbsolutePath());
 //        log("Relocating files");
         

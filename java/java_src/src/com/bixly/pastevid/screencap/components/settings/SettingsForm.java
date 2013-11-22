@@ -6,12 +6,12 @@
  * Created on Nov 30, 2011, 9:11:12 AM
  * 17 May 2013
  */
-package com.bixly.pastevid.screencap.components.settings;
+package com.your-keystore-here.pastevid.screencap.components.settings;
 
-import com.bixly.pastevid.recorders.Recorder;
-import com.bixly.pastevid.screencap.RecorderPanel;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.view.MouseMoveListener;
+import com.your-keystore-here.pastevid.recorders.Recorder;
+import com.your-keystore-here.pastevid.screencap.RecorderPanel;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.view.MouseMoveListener;
 import com.sun.awt.AWTUtilities;
 import java.awt.Color;
 import java.awt.Dimension;

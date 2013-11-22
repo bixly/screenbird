@@ -5,7 +5,7 @@
  * 
  * 24 May 2013
  */
-package com.bixly.pastevid.screencap;
+package com.your-keystore-here.pastevid.screencap;
 
 /**
  * Defines the relationship between ScreenRecorder JFrame and the main 

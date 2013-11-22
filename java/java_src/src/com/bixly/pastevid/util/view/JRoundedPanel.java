@@ -3,7 +3,7 @@
  * 
  * 20 May 2013
  */
-package com.bixly.pastevid.util.view;
+package com.your-keystore-here.pastevid.util.view;
 
 /*
  *  Copyright 2010 De Gregorio Daniele.

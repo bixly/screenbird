@@ -1,8 +1,8 @@
-package com.bixly.pastevid.util;
+package com.your-keystore-here.pastevid.util;
 
-//import com.bixly.pastevid.models.VideoFileItem;
-import com.bixly.pastevid.util.view.ProgressBarUploadProgressListener;
-import com.bixly.pastevid.util.view.ProgressMultiPartEntity;
+//import com.your-keystore-here.pastevid.models.VideoFileItem;
+import com.your-keystore-here.pastevid.util.view.ProgressBarUploadProgressListener;
+import com.your-keystore-here.pastevid.util.view.ProgressMultiPartEntity;
 //import it.sauronsoftware.jave.AudioAttributes;
 import it.sauronsoftware.jave.Encoder;
 import it.sauronsoftware.jave.EncoderException;

@@ -1,6 +1,6 @@
 package it.sauronsoftware.jave.locators;
 
-import com.bixly.pastevid.Settings;
+import com.your-keystore-here.pastevid.Settings;
 import java.io.File;
 
 public class WindowsFFMPEGLocator extends DefaultFFMPEGLocator {

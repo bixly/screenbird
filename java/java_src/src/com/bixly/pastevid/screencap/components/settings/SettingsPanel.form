@@ -26,7 +26,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="com.bixly.pastevid.util.view.JRoundedPanel" name="jfSettings">
+    <Container class="com.your-keystore-here.pastevid.util.view.JRoundedPanel" name="jfSettings">
       <Properties>
         <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
           <Dimension value="[333, 46]"/>
@@ -80,7 +80,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/x.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/x.png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
@@ -100,10 +100,10 @@
               <Dimension value="[24, 24]"/>
             </Property>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/x.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/x.png"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/x.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/x.png"/>
             </Property>
           </Properties>
           <Events>
@@ -122,7 +122,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/min.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/min.png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
@@ -142,10 +142,10 @@
               <Dimension value="[24, 24]"/>
             </Property>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/min.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/min.png"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/min.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/min.png"/>
             </Property>
           </Properties>
           <Events>

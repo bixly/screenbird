@@ -5,14 +5,14 @@
  * 
  * 20 May 2013
  */
-package com.bixly.pastevid.driver;
+package com.your-keystore-here.pastevid.driver;
 
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.models.User;
-import com.bixly.pastevid.util.FileUtil;
-import com.bixly.pastevid.util.LibraryUtil;
-import com.bixly.pastevid.util.MediaUtil;
-import com.bixly.pastevid.util.PropertiesUtil;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.models.User;
+import com.your-keystore-here.pastevid.util.FileUtil;
+import com.your-keystore-here.pastevid.util.LibraryUtil;
+import com.your-keystore-here.pastevid.util.MediaUtil;
+import com.your-keystore-here.pastevid.util.PropertiesUtil;
 import java.io.File;
 import java.util.Properties;
 import javax.swing.JApplet;
@@ -116,7 +116,7 @@ public class Launch extends JApplet {
 //                
 //                // Mac's custom script for launching Screen Recorder with proper settings
 //                File launchMac = new File(binDirectory+"/launch-mac");
-//                FileUtil.getInstance().copyFile("/com/bixly/pastevid/resources/launch-mac.sh", launchMac);
+//                FileUtil.getInstance().copyFile("/com/your-keystore-here/pastevid/resources/launch-mac.sh", launchMac);
 //                System.out.println("Starting to launch Screen Capture");
 //                LibraryUtil.executeScript(
 //                    new String[]{

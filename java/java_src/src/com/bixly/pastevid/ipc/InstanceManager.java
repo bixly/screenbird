@@ -5,12 +5,12 @@
  * 
  * 7 May 2013
  */
-package com.bixly.pastevid.ipc;
+package com.your-keystore-here.pastevid.ipc;
 
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.screencap.ScreenRecorderController;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.TimeUtil;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.screencap.ScreenRecorderController;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.TimeUtil;
 import java.io.IOException;
 
 /**

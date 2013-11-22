@@ -2,14 +2,14 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.screencap.components.settings;
+package com.your-keystore-here.pastevid.screencap.components.settings;
 
-import com.bixly.pastevid.recorders.IMeasurable;
+import com.your-keystore-here.pastevid.recorders.IMeasurable;
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
-import com.bixly.pastevid.recorders.Recorder;
-import com.bixly.pastevid.util.TimeUtil;
+import com.your-keystore-here.pastevid.recorders.Recorder;
+import com.your-keystore-here.pastevid.util.TimeUtil;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

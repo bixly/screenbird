@@ -2,11 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.ipc;
+package com.your-keystore-here.ipc;
 
-import com.bixly.util.LogUtil;
-import com.bixly.util.Queue;
-import com.bixly.util.TimeUtil;
+import com.your-keystore-here.util.LogUtil;
+import com.your-keystore-here.util.Queue;
+import com.your-keystore-here.util.TimeUtil;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.SocketException;

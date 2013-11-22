@@ -5,9 +5,9 @@
  * 
  * 20 May 2013
  */
-package com.bixly.pastevid.util;
+package com.your-keystore-here.pastevid.util;
 
-import com.bixly.pastevid.driver.Launch;
+import com.your-keystore-here.pastevid.driver.Launch;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.File;

@@ -18,9 +18,9 @@
  */
 package it.sauronsoftware.jave.locators;
 
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.common.Unimplemented;
-import com.bixly.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.common.Unimplemented;
+import com.your-keystore-here.pastevid.util.LogUtil;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -73,7 +73,7 @@ public class DefaultFFMPEGLocator extends FFMPEGLocator {
         InputStream input = null;
         OutputStream output = null;
         try {
-            input = getClass().getResourceAsStream("/com/bixly/binaries/" + path);
+            input = getClass().getResourceAsStream("/com/your-keystore-here/binaries/" + path);
             output = new FileOutputStream(dest);
             byte[] buffer = new byte[1024];
             int l;
@@ -87,7 +87,7 @@ public class DefaultFFMPEGLocator extends FFMPEGLocator {
             throw new RuntimeException("Cannot write file "
                     + dest.getAbsolutePath());
         } catch (NullPointerException e) {
-            log("Could not located binary: /com/bixly/binaries/"+path);
+            log("Could not located binary: /com/your-keystore-here/binaries/"+path);
         }finally {
             if (output != null) {
                 try {

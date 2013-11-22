@@ -6,12 +6,12 @@
  * Created on Mar 29, 2012, 12:39:14 PM
  * 16 May 2013
  */
-package com.bixly.pastevid.screencap.components.preview;
+package com.your-keystore-here.pastevid.screencap.components.preview;
 
-import com.bixly.pastevid.editors.VideoScrubManager;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.ResourceUtil;
-import com.bixly.pastevid.util.ScreenUtil;
+import com.your-keystore-here.pastevid.editors.VideoScrubManager;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.ResourceUtil;
+import com.your-keystore-here.pastevid.util.ScreenUtil;
 import com.sun.awt.AWTUtilities;
 import java.awt.Color;
 import java.awt.Dimension;

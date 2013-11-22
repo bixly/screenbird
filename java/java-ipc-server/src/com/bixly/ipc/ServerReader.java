@@ -2,12 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.ipc;
+package com.your-keystore-here.ipc;
 
-import com.bixly.ipc.exception.InvalidIPCUsageException;
-import com.bixly.ipc.exception.UnexpectedIPCResponseException;
-import com.bixly.util.LogUtil;
-import com.bixly.util.TimeUtil;
+import com.your-keystore-here.ipc.exception.InvalidIPCUsageException;
+import com.your-keystore-here.ipc.exception.UnexpectedIPCResponseException;
+import com.your-keystore-here.util.LogUtil;
+import com.your-keystore-here.util.TimeUtil;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

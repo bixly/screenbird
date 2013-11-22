@@ -5,10 +5,10 @@
  * 
  * 21 May 2013
  */
-package com.bixly.pastevid.download;
+package com.your-keystore-here.pastevid.download;
 
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.util.LogUtil;
 import java.io.File;
 
 /**

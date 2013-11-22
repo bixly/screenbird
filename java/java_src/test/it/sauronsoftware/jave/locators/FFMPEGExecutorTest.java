@@ -4,8 +4,8 @@
  */
 package it.sauronsoftware.jave.locators;
 
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.screencap.components.progressbar.FFMpegProgressBarListener;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.screencap.components.progressbar.FFMpegProgressBarListener;
 import java.io.File;
 import javax.swing.JProgressBar;
 import org.junit.After;

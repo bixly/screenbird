@@ -2,11 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.util;
+package com.your-keystore-here.pastevid.util;
 
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.download.DownloadManager;
-import com.bixly.pastevid.download.DownloadUnzip;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.download.DownloadManager;
+import com.your-keystore-here.pastevid.download.DownloadUnzip;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

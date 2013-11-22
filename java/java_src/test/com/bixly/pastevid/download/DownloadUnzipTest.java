@@ -2,12 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.download;
+package com.your-keystore-here.pastevid.download;
 
-import com.bixly.pastevid.Session;
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.util.MediaUtil;
-import com.bixly.pastevid.util.TimeUtil;
+import com.your-keystore-here.pastevid.Session;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.util.MediaUtil;
+import com.your-keystore-here.pastevid.util.TimeUtil;
 import java.io.File;
 import org.junit.After;
 import org.junit.AfterClass;

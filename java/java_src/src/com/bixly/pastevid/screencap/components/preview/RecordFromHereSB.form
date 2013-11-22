@@ -43,7 +43,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/com/bixly/pastevid/resources/sb/preview/preview_slider_panel_normal.png"/>
+          <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/preview/preview_slider_panel_normal.png"/>
         </Property>
       </Properties>
     </Component>

@@ -2,18 +2,18 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.ipc;
+package com.your-keystore-here.ipc;
 
-import com.bixly.ipc.exception.InvalidIPCUsageException;
-import com.bixly.util.Queue;
-import com.bixly.ipc.exception.UnexpectedIPCResponseException;
-import com.bixly.util.TimeUtil;
+import com.your-keystore-here.ipc.exception.InvalidIPCUsageException;
+import com.your-keystore-here.util.Queue;
+import com.your-keystore-here.ipc.exception.UnexpectedIPCResponseException;
+import com.your-keystore-here.util.TimeUtil;
 import java.io.IOException;
 import java.net.ConnectException;
 import java.net.Socket;
 import java.net.SocketException;
 import java.net.UnknownHostException;
-import static com.bixly.ipc.IPCManager.*;
+import static com.your-keystore-here.ipc.IPCManager.*;
 
 /**
  * Client side client

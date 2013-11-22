@@ -1,4 +1,4 @@
-package com.bixly.pastevid.recorders;
+package com.your-keystore-here.pastevid.recorders;
 
 import org.junit.After;
 import org.junit.AfterClass;

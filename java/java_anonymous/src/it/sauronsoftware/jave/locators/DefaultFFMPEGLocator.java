@@ -69,7 +69,7 @@ public class DefaultFFMPEGLocator extends FFMPEGLocator {
         InputStream input = null;
         OutputStream output = null;
         try {
-            input = getClass().getResourceAsStream("/com/bixly/binaries/" + path);
+            input = getClass().getResourceAsStream("/com/your-keystore-here/binaries/" + path);
             output = new FileOutputStream(dest);
             byte[] buffer = new byte[1024];
             int l;

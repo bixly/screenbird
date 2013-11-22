@@ -5,16 +5,16 @@
  * 
  * 15 May 2013
  */
-package com.bixly.pastevid.screencap.components.capturebox;
+package com.your-keystore-here.pastevid.screencap.components.capturebox;
 
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.recorders.Recorder;
-import com.bixly.pastevid.recorders.RecorderStatus;
-import com.bixly.pastevid.screencap.components.IProperties;
-import com.bixly.pastevid.screencap.components.PropertiesManager;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.MediaUtil;
-import com.bixly.pastevid.util.ScreenUtil;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.recorders.Recorder;
+import com.your-keystore-here.pastevid.recorders.RecorderStatus;
+import com.your-keystore-here.pastevid.screencap.components.IProperties;
+import com.your-keystore-here.pastevid.screencap.components.PropertiesManager;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.MediaUtil;
+import com.your-keystore-here.pastevid.util.ScreenUtil;
 import com.sun.awt.AWTUtilities;
 import com.sun.awt.AWTUtilities.Translucency;
 import java.awt.Dimension;

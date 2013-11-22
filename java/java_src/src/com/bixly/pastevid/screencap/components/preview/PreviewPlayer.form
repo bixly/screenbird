@@ -98,7 +98,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/close_normal.png"/>
+                  <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/close_normal.png"/>
                 </Property>
                 <Property name="alignmentY" type="float" value="0.0"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -119,10 +119,10 @@
                   <Dimension value="[42, 16]"/>
                 </Property>
                 <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/close_normal.png"/>
+                  <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/close_normal.png"/>
                 </Property>
                 <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/close_hover.png"/>
+                  <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/close_hover.png"/>
                 </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
               </Properties>
@@ -142,7 +142,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/minimize_normal.png"/>
+                  <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/minimize_normal.png"/>
                 </Property>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="null"/>
@@ -164,10 +164,10 @@
                   <Dimension value="[21, 16]"/>
                 </Property>
                 <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/minimize_normal.png"/>
+                  <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/minimize_normal.png"/>
                 </Property>
                 <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/minimize_hover.png"/>
+                  <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/minimize_hover.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -279,7 +279,7 @@
               <Color blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/preview/play_normal.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/preview/play_normal.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Play Preivew"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -301,13 +301,13 @@
               <Dimension value="[113, 36]"/>
             </Property>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/preview/play_pushed.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/preview/play_pushed.png"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/preview/play_hover.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/preview/play_hover.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/preview/play_pushed.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/preview/play_pushed.png"/>
             </Property>
           </Properties>
           <Events>
@@ -323,7 +323,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/preview/rewind_normal.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/preview/rewind_normal.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Skip to Beginning"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -346,10 +346,10 @@
               <Dimension value="[24, 24]"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/preview/rewind_hover.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/preview/rewind_hover.png"/>
             </Property>
             <Property name="rolloverSelectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/preview/rewind_pushed.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/preview/rewind_pushed.png"/>
             </Property>
           </Properties>
           <Events>
@@ -370,7 +370,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/preview/ffwd_normal.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/preview/ffwd_normal.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Skip To End"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -393,10 +393,10 @@
               <Dimension value="[24, 24]"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/preview/ffwd_hover.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/preview/ffwd_hover.png"/>
             </Property>
             <Property name="rolloverSelectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/preview/ffwd_pushed.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/preview/ffwd_pushed.png"/>
             </Property>
           </Properties>
           <Events>
@@ -420,7 +420,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/preview/finalize_normal.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/preview/finalize_normal.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Finalize Screen Capture"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -440,10 +440,10 @@
               <Dimension value="[24, 24]"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/preview/finalize_hover.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/preview/finalize_hover.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/preview/finalize_pushed.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/preview/finalize_pushed.png"/>
             </Property>
           </Properties>
           <Events>
@@ -541,7 +541,7 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Container class="com.bixly.pastevid.util.view.JImagePanel" name="jpImage">
+        <Container class="com.your-keystore-here.pastevid.util.view.JImagePanel" name="jpImage">
           <Properties>
             <Property name="enabled" type="boolean" value="false"/>
           </Properties>

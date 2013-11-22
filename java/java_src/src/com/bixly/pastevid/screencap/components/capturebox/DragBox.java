@@ -6,11 +6,11 @@
  * Created on 10/08/2011, 16:15:32
  * 25 May 2013
  */
-package com.bixly.pastevid.screencap.components.capturebox;
+package com.your-keystore-here.pastevid.screencap.components.capturebox;
 
-import com.bixly.pastevid.models.ScreenSize;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.ResourceUtil;
+import com.your-keystore-here.pastevid.models.ScreenSize;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.ResourceUtil;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Toolkit;
@@ -165,7 +165,7 @@ public class DragBox extends javax.swing.JWindow {
 
         standardARToggle.setBackground(java.awt.Color.darkGray);
         standardARToggle.setForeground(java.awt.Color.white);
-        standardARToggle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/capturebox/normal-inactive.png"))); // NOI18N
+        standardARToggle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/capturebox/normal-inactive.png"))); // NOI18N
         standardARToggle.setSelected(true);
         standardARToggle.setToolTipText("Normal (4:3)");
         standardARToggle.setAlignmentY(0.0F);
@@ -179,10 +179,10 @@ public class DragBox extends javax.swing.JWindow {
         standardARToggle.setMinimumSize(new java.awt.Dimension(33, 32));
         standardARToggle.setName("standardARToggle"); // NOI18N
         standardARToggle.setPreferredSize(new java.awt.Dimension(34, 32));
-        standardARToggle.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/capturebox/normal-active.png"))); // NOI18N
-        standardARToggle.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/capturebox/normal-hover.png"))); // NOI18N
-        standardARToggle.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/capturebox/normal-active.png"))); // NOI18N
-        standardARToggle.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/capturebox/normal-active.png"))); // NOI18N
+        standardARToggle.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/capturebox/normal-active.png"))); // NOI18N
+        standardARToggle.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/capturebox/normal-hover.png"))); // NOI18N
+        standardARToggle.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/capturebox/normal-active.png"))); // NOI18N
+        standardARToggle.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/capturebox/normal-active.png"))); // NOI18N
         standardARToggle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 standardARToggleActionPerformed(evt);
@@ -198,7 +198,7 @@ public class DragBox extends javax.swing.JWindow {
 
         widescreenARToggle.setBackground(java.awt.Color.darkGray);
         widescreenARToggle.setForeground(java.awt.Color.white);
-        widescreenARToggle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/capturebox/wide-inactive.png"))); // NOI18N
+        widescreenARToggle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/capturebox/wide-inactive.png"))); // NOI18N
         widescreenARToggle.setToolTipText("Widescreen (16:9)");
         widescreenARToggle.setAlignmentY(0.0F);
         widescreenARToggle.setBorderPainted(false);
@@ -211,10 +211,10 @@ public class DragBox extends javax.swing.JWindow {
         widescreenARToggle.setMinimumSize(new java.awt.Dimension(34, 32));
         widescreenARToggle.setName("toggleScreenSize"); // NOI18N
         widescreenARToggle.setPreferredSize(new java.awt.Dimension(34, 32));
-        widescreenARToggle.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/capturebox/wide-active.png"))); // NOI18N
-        widescreenARToggle.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/capturebox/wide-hover.png"))); // NOI18N
-        widescreenARToggle.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/capturebox/wide-active.png"))); // NOI18N
-        widescreenARToggle.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/capturebox/wide-active.png"))); // NOI18N
+        widescreenARToggle.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/capturebox/wide-active.png"))); // NOI18N
+        widescreenARToggle.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/capturebox/wide-hover.png"))); // NOI18N
+        widescreenARToggle.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/capturebox/wide-active.png"))); // NOI18N
+        widescreenARToggle.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/capturebox/wide-active.png"))); // NOI18N
         widescreenARToggle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 widescreenARToggleActionPerformed(evt);

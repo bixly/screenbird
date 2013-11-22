@@ -100,7 +100,7 @@
               <Color blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/capturebox/normal-inactive.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/capturebox/normal-inactive.png"/>
             </Property>
             <Property name="selected" type="boolean" value="true"/>
             <Property name="toolTipText" type="java.lang.String" value="Normal (4:3)"/>
@@ -124,16 +124,16 @@
               <Dimension value="[34, 32]"/>
             </Property>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/capturebox/normal-active.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/capturebox/normal-active.png"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/capturebox/normal-hover.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/capturebox/normal-hover.png"/>
             </Property>
             <Property name="rolloverSelectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/capturebox/normal-active.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/capturebox/normal-active.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/capturebox/normal-active.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/capturebox/normal-active.png"/>
             </Property>
           </Properties>
           <Events>
@@ -163,7 +163,7 @@
               <Color blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/capturebox/wide-inactive.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/capturebox/wide-inactive.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Widescreen (16:9)"/>
             <Property name="alignmentY" type="float" value="0.0"/>
@@ -186,16 +186,16 @@
               <Dimension value="[34, 32]"/>
             </Property>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/capturebox/wide-active.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/capturebox/wide-active.png"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/capturebox/wide-hover.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/capturebox/wide-hover.png"/>
             </Property>
             <Property name="rolloverSelectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/capturebox/wide-active.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/capturebox/wide-active.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/capturebox/wide-active.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/capturebox/wide-active.png"/>
             </Property>
           </Properties>
           <Events>

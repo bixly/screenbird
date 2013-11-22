@@ -5,9 +5,9 @@
  * 
  * 17 May 2013
  */
-package com.bixly.pastevid.util;
+package com.your-keystore-here.pastevid.util;
 
-import com.bixly.pastevid.common.Unimplemented;
+import com.your-keystore-here.pastevid.common.Unimplemented;
 import java.util.HashMap;
 import java.util.Random;
 

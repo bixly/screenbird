@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.models;
+package com.your-keystore-here.pastevid.models;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -16,7 +16,7 @@ import org.junit.runners.Suite;
  * @author Matias
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({com.bixly.pastevid.models.WaterMarkTest.class, com.bixly.pastevid.models.AudioFileItemTest.class, com.bixly.pastevid.models.UserTest.class, com.bixly.pastevid.models.SilentTest.class, com.bixly.pastevid.models.VideoFileItemTest.class, com.bixly.pastevid.models.ScreenSizeTest.class})
+@Suite.SuiteClasses({com.your-keystore-here.pastevid.models.WaterMarkTest.class, com.your-keystore-here.pastevid.models.AudioFileItemTest.class, com.your-keystore-here.pastevid.models.UserTest.class, com.your-keystore-here.pastevid.models.SilentTest.class, com.your-keystore-here.pastevid.models.VideoFileItemTest.class, com.your-keystore-here.pastevid.models.ScreenSizeTest.class})
 public class ModelSuite {
 
     @BeforeClass

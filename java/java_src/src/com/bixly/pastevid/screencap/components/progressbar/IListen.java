@@ -5,7 +5,7 @@
  * 
  * 17 May 2013
  */
-package com.bixly.pastevid.screencap.components.progressbar;
+package com.your-keystore-here.pastevid.screencap.components.progressbar;
 
 /**
  *

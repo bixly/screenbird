@@ -5,10 +5,10 @@
  * 
  * 7 May 2013
  */
-package com.bixly.pastevid.models;
+package com.your-keystore-here.pastevid.models;
 
-import com.bixly.pastevid.util.FileUtil;
-import com.bixly.pastevid.util.ResourceUtil;
+import com.your-keystore-here.pastevid.util.FileUtil;
+import com.your-keystore-here.pastevid.util.ResourceUtil;
 import java.io.File;
 
 /**

@@ -19,7 +19,7 @@
  */
 package com.bric.io;
 
-import com.bixly.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.LogUtil;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;

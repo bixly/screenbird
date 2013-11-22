@@ -5,16 +5,16 @@
  * 
  * 8 May 2013
  */
-package com.bixly.pastevid.recorders;
+package com.your-keystore-here.pastevid.recorders;
 
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.models.VideoFileItem;
-import com.bixly.pastevid.models.WaterMark;
-import com.bixly.pastevid.util.FileUtil;
-import com.bixly.pastevid.util.ImageUtil;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.ResourceUtil;
-import com.bixly.pastevid.util.TimeUtil;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.models.VideoFileItem;
+import com.your-keystore-here.pastevid.models.WaterMark;
+import com.your-keystore-here.pastevid.util.FileUtil;
+import com.your-keystore-here.pastevid.util.ImageUtil;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.ResourceUtil;
+import com.your-keystore-here.pastevid.util.TimeUtil;
 import com.bric.qt.io.JPEGMovieAnimation;
 import java.awt.AWTException;
 import java.awt.Graphics2D;

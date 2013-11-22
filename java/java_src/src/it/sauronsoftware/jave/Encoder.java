@@ -18,11 +18,11 @@
  */
 package it.sauronsoftware.jave;
 
-import com.bixly.pastevid.util.FileUtil;
-import com.bixly.pastevid.util.LibraryUtil;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.MediaUtil;
-import com.bixly.pastevid.screencap.components.progressbar.FFMpegProgressBarListener;
+import com.your-keystore-here.pastevid.util.FileUtil;
+import com.your-keystore-here.pastevid.util.LibraryUtil;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.MediaUtil;
+import com.your-keystore-here.pastevid.screencap.components.progressbar.FFMpegProgressBarListener;
 import it.sauronsoftware.jave.locators.FFMPEGExecutor;
 import it.sauronsoftware.jave.locators.FFMPEGLocator;
 import it.sauronsoftware.jave.locators.DefaultFFMPEGLocator;

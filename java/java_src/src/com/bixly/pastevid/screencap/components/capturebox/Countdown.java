@@ -5,9 +5,9 @@
  * 
  * 16 May 2013
  */
-package com.bixly.pastevid.screencap.components.capturebox;
+package com.your-keystore-here.pastevid.screencap.components.capturebox;
 
-import com.bixly.pastevid.recorders.Recorder;
+import com.your-keystore-here.pastevid.recorders.Recorder;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Container;

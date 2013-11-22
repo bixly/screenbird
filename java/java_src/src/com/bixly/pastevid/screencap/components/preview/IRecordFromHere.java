@@ -5,7 +5,7 @@
  * 
  * 16 May 2013
  */
-package com.bixly.pastevid.screencap.components.preview;
+package com.your-keystore-here.pastevid.screencap.components.preview;
 
 /**
  * Interface that describes the relationship between the Preview Player

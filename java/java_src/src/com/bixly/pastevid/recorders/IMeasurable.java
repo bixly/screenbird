@@ -5,7 +5,7 @@
  * 
  * 8 May 2013
  */
-package com.bixly.pastevid.recorders;
+package com.your-keystore-here.pastevid.recorders;
 
 import java.awt.GraphicsDevice;
 

@@ -5,20 +5,20 @@
  * 
  * 7 May 2013
  */
-package com.bixly.pastevid.editors;
+package com.your-keystore-here.pastevid.editors;
 
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.download.DownloadManager;
-import com.bixly.pastevid.download.DownloadStatus;
-import com.bixly.pastevid.download.DownloadThread;
-import com.bixly.pastevid.recorders.AudioCache;
-import com.bixly.pastevid.recorders.Recorder;
-import com.bixly.pastevid.recorders.VideoCache;
-import com.bixly.pastevid.screencap.RecorderPanel;
-import com.bixly.pastevid.screencap.components.preview.PreviewPlayer;
-import com.bixly.pastevid.screencap.components.preview.PreviewPlayerForm;
-import com.bixly.pastevid.util.*;
-import com.bixly.pastevid.screencap.components.progressbar.FFMpegProgressBarListener;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.download.DownloadManager;
+import com.your-keystore-here.pastevid.download.DownloadStatus;
+import com.your-keystore-here.pastevid.download.DownloadThread;
+import com.your-keystore-here.pastevid.recorders.AudioCache;
+import com.your-keystore-here.pastevid.recorders.Recorder;
+import com.your-keystore-here.pastevid.recorders.VideoCache;
+import com.your-keystore-here.pastevid.screencap.RecorderPanel;
+import com.your-keystore-here.pastevid.screencap.components.preview.PreviewPlayer;
+import com.your-keystore-here.pastevid.screencap.components.preview.PreviewPlayerForm;
+import com.your-keystore-here.pastevid.util.*;
+import com.your-keystore-here.pastevid.screencap.components.progressbar.FFMpegProgressBarListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.util.ArrayList;

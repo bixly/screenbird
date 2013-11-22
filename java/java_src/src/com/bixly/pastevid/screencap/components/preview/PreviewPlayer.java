@@ -6,7 +6,7 @@
  * Created on Mar 29, 2012, 2:07:27 PM
  * 16 May 2013
  */
-package com.bixly.pastevid.screencap.components.preview;
+package com.your-keystore-here.pastevid.screencap.components.preview;
 
 import com.sun.awt.AWTUtilities;
 import java.awt.Color;
@@ -25,17 +25,17 @@ import javax.swing.event.ChangeListener;
 import javax.swing.event.ChangeEvent;
 import javax.swing.SwingUtilities;
 
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.editors.VideoScrubManager;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.MediaUtil;
-import com.bixly.pastevid.util.ResourceUtil;
-import com.bixly.pastevid.util.ScreenUtil;
-import com.bixly.pastevid.util.TimeUtil;
-import com.bixly.pastevid.util.view.JRoundedPanel;
-import com.bixly.pastevid.util.view.JSliderCustomKnob;
-import com.bixly.pastevid.util.view.JPreviewSlider;
-import com.bixly.pastevid.util.view.MouseMoveListener;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.editors.VideoScrubManager;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.MediaUtil;
+import com.your-keystore-here.pastevid.util.ResourceUtil;
+import com.your-keystore-here.pastevid.util.ScreenUtil;
+import com.your-keystore-here.pastevid.util.TimeUtil;
+import com.your-keystore-here.pastevid.util.view.JRoundedPanel;
+import com.your-keystore-here.pastevid.util.view.JSliderCustomKnob;
+import com.your-keystore-here.pastevid.util.view.JPreviewSlider;
+import com.your-keystore-here.pastevid.util.view.MouseMoveListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
@@ -436,7 +436,7 @@ public class PreviewPlayer extends JRoundedPanel {
         jPanel2 = new javax.swing.JPanel();
         previewTimeSlider = new JPreviewSlider(this);
         jPanel4 = new javax.swing.JPanel();
-        jpImage = new com.bixly.pastevid.util.view.JImagePanel();
+        jpImage = new com.your-keystore-here.pastevid.util.view.JImagePanel();
 
         setBackground(new java.awt.Color(214, 214, 214));
         setLayout(new java.awt.BorderLayout());
@@ -451,7 +451,7 @@ public class PreviewPlayer extends JRoundedPanel {
 
         btnCancel.setBackground(java.awt.Color.white);
         btnCancel.setForeground(new java.awt.Color(255, 255, 255));
-        btnCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/close_normal.png"))); // NOI18N
+        btnCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/close_normal.png"))); // NOI18N
         btnCancel.setAlignmentY(0.0F);
         btnCancel.setBorder(null);
         btnCancel.setBorderPainted(false);
@@ -462,8 +462,8 @@ public class PreviewPlayer extends JRoundedPanel {
         btnCancel.setMinimumSize(new java.awt.Dimension(42, 16));
         btnCancel.setName("btnCancelRecorder"); // NOI18N
         btnCancel.setPreferredSize(new java.awt.Dimension(42, 16));
-        btnCancel.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/close_normal.png"))); // NOI18N
-        btnCancel.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/close_hover.png"))); // NOI18N
+        btnCancel.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/close_normal.png"))); // NOI18N
+        btnCancel.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/close_hover.png"))); // NOI18N
         btnCancel.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btnCancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -473,7 +473,7 @@ public class PreviewPlayer extends JRoundedPanel {
 
         btnMinimize.setBackground(java.awt.Color.darkGray);
         btnMinimize.setForeground(new java.awt.Color(255, 255, 255));
-        btnMinimize.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/minimize_normal.png"))); // NOI18N
+        btnMinimize.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/minimize_normal.png"))); // NOI18N
         btnMinimize.setBorder(null);
         btnMinimize.setContentAreaFilled(false);
         btnMinimize.setDoubleBuffered(true);
@@ -483,8 +483,8 @@ public class PreviewPlayer extends JRoundedPanel {
         btnMinimize.setMinimumSize(new java.awt.Dimension(21, 16));
         btnMinimize.setName("btnMinimizeRecorder"); // NOI18N
         btnMinimize.setPreferredSize(new java.awt.Dimension(21, 16));
-        btnMinimize.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/minimize_normal.png"))); // NOI18N
-        btnMinimize.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/minimize_hover.png"))); // NOI18N
+        btnMinimize.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/minimize_normal.png"))); // NOI18N
+        btnMinimize.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/minimize_hover.png"))); // NOI18N
         btnMinimize.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMinimizeActionPerformed(evt);
@@ -532,7 +532,7 @@ public class PreviewPlayer extends JRoundedPanel {
         togglePlayPause.setBackground(java.awt.Color.darkGray);
         togglePlayPause.setFont(new java.awt.Font("Lucida Grande", 0, 12)); // NOI18N
         togglePlayPause.setForeground(java.awt.Color.white);
-        togglePlayPause.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/preview/play_normal.png"))); // NOI18N
+        togglePlayPause.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/preview/play_normal.png"))); // NOI18N
         togglePlayPause.setToolTipText("Play Preivew");
         togglePlayPause.setBorder(null);
         togglePlayPause.setBorderPainted(false);
@@ -544,9 +544,9 @@ public class PreviewPlayer extends JRoundedPanel {
         togglePlayPause.setMinimumSize(new java.awt.Dimension(113, 36));
         togglePlayPause.setName("togglePlayPause"); // NOI18N
         togglePlayPause.setPreferredSize(new java.awt.Dimension(113, 36));
-        togglePlayPause.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/preview/play_pushed.png"))); // NOI18N
-        togglePlayPause.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/preview/play_hover.png"))); // NOI18N
-        togglePlayPause.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/preview/play_pushed.png"))); // NOI18N
+        togglePlayPause.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/preview/play_pushed.png"))); // NOI18N
+        togglePlayPause.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/preview/play_hover.png"))); // NOI18N
+        togglePlayPause.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/preview/play_pushed.png"))); // NOI18N
         togglePlayPause.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 togglePlayPauseActionPerformed(evt);
@@ -555,7 +555,7 @@ public class PreviewPlayer extends JRoundedPanel {
 
         btnSkipToStart.setBackground(java.awt.Color.white);
         btnSkipToStart.setForeground(new java.awt.Color(255, 255, 255));
-        btnSkipToStart.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/preview/rewind_normal.png"))); // NOI18N
+        btnSkipToStart.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/preview/rewind_normal.png"))); // NOI18N
         btnSkipToStart.setToolTipText("Skip to Beginning");
         btnSkipToStart.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnSkipToStart.setBorderPainted(false);
@@ -566,8 +566,8 @@ public class PreviewPlayer extends JRoundedPanel {
         btnSkipToStart.setMinimumSize(new java.awt.Dimension(24, 24));
         btnSkipToStart.setName("btnCancelRecorder"); // NOI18N
         btnSkipToStart.setPreferredSize(new java.awt.Dimension(24, 24));
-        btnSkipToStart.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/preview/rewind_hover.png"))); // NOI18N
-        btnSkipToStart.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/preview/rewind_pushed.png"))); // NOI18N
+        btnSkipToStart.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/preview/rewind_hover.png"))); // NOI18N
+        btnSkipToStart.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/preview/rewind_pushed.png"))); // NOI18N
         btnSkipToStart.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 btnSkipToStartMousePressed(evt);
@@ -584,7 +584,7 @@ public class PreviewPlayer extends JRoundedPanel {
 
         btnSkipToEnd.setBackground(java.awt.Color.white);
         btnSkipToEnd.setForeground(new java.awt.Color(255, 255, 255));
-        btnSkipToEnd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/preview/ffwd_normal.png"))); // NOI18N
+        btnSkipToEnd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/preview/ffwd_normal.png"))); // NOI18N
         btnSkipToEnd.setToolTipText("Skip To End");
         btnSkipToEnd.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnSkipToEnd.setBorderPainted(false);
@@ -595,8 +595,8 @@ public class PreviewPlayer extends JRoundedPanel {
         btnSkipToEnd.setMinimumSize(new java.awt.Dimension(24, 24));
         btnSkipToEnd.setName("btnCancelRecorder"); // NOI18N
         btnSkipToEnd.setPreferredSize(new java.awt.Dimension(24, 24));
-        btnSkipToEnd.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/preview/ffwd_hover.png"))); // NOI18N
-        btnSkipToEnd.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/preview/ffwd_pushed.png"))); // NOI18N
+        btnSkipToEnd.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/preview/ffwd_hover.png"))); // NOI18N
+        btnSkipToEnd.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/preview/ffwd_pushed.png"))); // NOI18N
         btnSkipToEnd.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 btnSkipToEndMousePressed(evt);
@@ -614,7 +614,7 @@ public class PreviewPlayer extends JRoundedPanel {
         btnFinalizeVideo.setBackground(java.awt.Color.darkGray);
         btnFinalizeVideo.setFont(new java.awt.Font("Lucida Grande", 0, 12)); // NOI18N
         btnFinalizeVideo.setForeground(new java.awt.Color(255, 255, 255));
-        btnFinalizeVideo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/preview/finalize_normal.png"))); // NOI18N
+        btnFinalizeVideo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/preview/finalize_normal.png"))); // NOI18N
         btnFinalizeVideo.setToolTipText("Finalize Screen Capture");
         btnFinalizeVideo.setBorder(null);
         btnFinalizeVideo.setContentAreaFilled(false);
@@ -624,8 +624,8 @@ public class PreviewPlayer extends JRoundedPanel {
         btnFinalizeVideo.setMinimumSize(new java.awt.Dimension(24, 24));
         btnFinalizeVideo.setName("btnFinalizeVideo"); // NOI18N
         btnFinalizeVideo.setPreferredSize(new java.awt.Dimension(24, 24));
-        btnFinalizeVideo.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/preview/finalize_hover.png"))); // NOI18N
-        btnFinalizeVideo.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/preview/finalize_pushed.png"))); // NOI18N
+        btnFinalizeVideo.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/preview/finalize_hover.png"))); // NOI18N
+        btnFinalizeVideo.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/preview/finalize_pushed.png"))); // NOI18N
         btnFinalizeVideo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnFinalizeVideoActionPerformed(evt);
@@ -827,7 +827,7 @@ public class PreviewPlayer extends JRoundedPanel {
     private javax.swing.JPanel jPanelPreviewRoot;
     private javax.swing.JLabel jlblTimeCurrent;
     private javax.swing.JLabel jlblTimeRemaining;
-    private com.bixly.pastevid.util.view.JImagePanel jpImage;
+    private com.your-keystore-here.pastevid.util.view.JImagePanel jpImage;
     private javax.swing.JSlider previewTimeSlider;
     private javax.swing.JLabel titleBarLabel;
     private javax.swing.JToggleButton togglePlayPause;

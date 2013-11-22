@@ -1,4 +1,4 @@
-package com.bixly.pastevid.util;
+package com.your-keystore-here.pastevid.util;
 
 /**
  * @author Bixly

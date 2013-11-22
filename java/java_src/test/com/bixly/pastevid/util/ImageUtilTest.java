@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.util;
+package com.your-keystore-here.pastevid.util;
 
 import java.io.IOException;
 import java.util.Iterator;
@@ -11,7 +11,7 @@ import javax.imageio.ImageIO;
 import javax.imageio.ImageWriteParam;
 import javax.imageio.ImageWriter;
 import javax.imageio.stream.FileImageOutputStream;
-import com.bixly.pastevid.models.WaterMark;
+import com.your-keystore-here.pastevid.models.WaterMark;
 import java.io.File;
 import java.awt.AWTException;
 import java.awt.Rectangle;

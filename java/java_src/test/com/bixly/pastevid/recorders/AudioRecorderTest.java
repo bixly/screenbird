@@ -1,9 +1,9 @@
-package com.bixly.pastevid.recorders;
+package com.your-keystore-here.pastevid.recorders;
 
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.models.AudioFileItem;
-import com.bixly.pastevid.screencap.components.IAudioObserver;
-import com.bixly.pastevid.screencap.components.IAudioSubject;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.models.AudioFileItem;
+import com.your-keystore-here.pastevid.screencap.components.IAudioObserver;
+import com.your-keystore-here.pastevid.screencap.components.IAudioSubject;
 import java.util.ArrayList;
 import javax.swing.ImageIcon;
 import org.junit.After;

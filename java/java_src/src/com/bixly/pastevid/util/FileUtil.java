@@ -5,13 +5,13 @@
  * 
  * 17 May 2013
  */
-package com.bixly.pastevid.util;
+package com.your-keystore-here.pastevid.util;
 
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.common.Unimplemented;
-import com.bixly.pastevid.screencap.components.progressbar.FFMpegProgressBarListener;
-import com.bixly.pastevid.screencap.components.progressbar.ProgressBarUploadProgressListener;
-import com.bixly.pastevid.screencap.components.progressbar.ProgressMultiPartEntity;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.common.Unimplemented;
+import com.your-keystore-here.pastevid.screencap.components.progressbar.FFMpegProgressBarListener;
+import com.your-keystore-here.pastevid.screencap.components.progressbar.ProgressBarUploadProgressListener;
+import com.your-keystore-here.pastevid.screencap.components.progressbar.ProgressMultiPartEntity;
 import it.sauronsoftware.jave.AudioAttributes;
 import it.sauronsoftware.jave.Encoder;
 import it.sauronsoftware.jave.EncoderException;

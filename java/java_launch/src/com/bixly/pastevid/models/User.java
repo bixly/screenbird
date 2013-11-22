@@ -5,7 +5,7 @@
  * 
  * 20 May 2013
  */
-package com.bixly.pastevid.models;
+package com.your-keystore-here.pastevid.models;
 
 /**
  *

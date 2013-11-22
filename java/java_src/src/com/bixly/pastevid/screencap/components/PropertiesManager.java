@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.screencap.components;
+package com.your-keystore-here.pastevid.screencap.components;
 
-import com.bixly.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.LogUtil;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

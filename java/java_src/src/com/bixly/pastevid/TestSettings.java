@@ -5,9 +5,9 @@
  * 
  * 4 May 2013
  */
-package com.bixly.pastevid;
+package com.your-keystore-here.pastevid;
 
-import com.bixly.pastevid.util.MediaUtil;
+import com.your-keystore-here.pastevid.util.MediaUtil;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;

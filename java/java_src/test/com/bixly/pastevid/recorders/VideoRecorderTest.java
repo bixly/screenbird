@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.recorders;
+package com.your-keystore-here.pastevid.recorders;
 
-import com.bixly.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.LogUtil;
 import java.awt.Rectangle;
 import javax.swing.ImageIcon;
 import org.junit.After;

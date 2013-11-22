@@ -2,12 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.ipc;
-import com.bixly.ipc.exception.RegisterClientException;
+package com.your-keystore-here.ipc;
+import com.your-keystore-here.ipc.exception.RegisterClientException;
 import java.net.BindException;
-import com.bixly.pastevid.PastevidProtocol;
-import com.bixly.util.LogUtil;
-import com.bixly.util.TimeUtil;
+import com.your-keystore-here.pastevid.PastevidProtocol;
+import com.your-keystore-here.util.LogUtil;
+import com.your-keystore-here.util.TimeUtil;
 import java.util.HashMap;
 import java.io.IOException;
 import java.net.ServerSocket;

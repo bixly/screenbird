@@ -5,11 +5,11 @@
  * 
  * 7 May 2013
  */
-package com.bixly.pastevid.ipc;
+package com.your-keystore-here.pastevid.ipc;
 
-import com.bixly.pastevid.common.Unimplemented;
-import com.bixly.pastevid.screencap.ScreenRecorder;
-import com.bixly.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.common.Unimplemented;
+import com.your-keystore-here.pastevid.screencap.ScreenRecorder;
+import com.your-keystore-here.pastevid.util.LogUtil;
 
 /**
  *

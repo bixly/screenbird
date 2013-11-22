@@ -5,11 +5,11 @@
  * 
  * 17 May 2013
  */
-package com.bixly.pastevid.util;
+package com.your-keystore-here.pastevid.util;
 
-import com.bixly.pastevid.Session;
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.screencap.components.progressbar.FFMpegProgressBarListener;
+import com.your-keystore-here.pastevid.Session;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.screencap.components.progressbar.FFMpegProgressBarListener;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;

@@ -5,10 +5,10 @@
  * 
  * 8 May 2013
  */
-package com.bixly.pastevid.recorders;
+package com.your-keystore-here.pastevid.recorders;
 
-import com.bixly.pastevid.editors.ScreenshotFile;
-import com.bixly.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.editors.ScreenshotFile;
+import com.your-keystore-here.pastevid.util.LogUtil;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;

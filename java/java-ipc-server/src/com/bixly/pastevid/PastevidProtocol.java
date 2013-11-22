@@ -2,10 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid;
+package com.your-keystore-here.pastevid;
 
-import com.bixly.ipc.Command;
-import com.bixly.ipc.IPCProtocol;
+import com.your-keystore-here.ipc.Command;
+import com.your-keystore-here.ipc.IPCProtocol;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

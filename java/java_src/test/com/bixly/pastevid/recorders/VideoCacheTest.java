@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.recorders;
+package com.your-keystore-here.pastevid.recorders;
 
 import java.awt.Rectangle;
 import java.awt.Toolkit;
@@ -13,7 +13,7 @@ import java.util.Iterator;
 import javax.imageio.ImageIO;
 import javax.imageio.ImageWriteParam;
 import javax.imageio.ImageWriter;
-import com.bixly.pastevid.Settings;
+import com.your-keystore-here.pastevid.Settings;
 import java.awt.AWTException;
 import java.awt.image.BufferedImage;
 import java.io.File;

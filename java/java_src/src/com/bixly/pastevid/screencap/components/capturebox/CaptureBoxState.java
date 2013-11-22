@@ -5,7 +5,7 @@
  * 
  * 15 May 2013
  */
-package com.bixly.pastevid.screencap.components.capturebox;
+package com.your-keystore-here.pastevid.screencap.components.capturebox;
 
 /**
  * Data type for capture box aspect ratio display states.

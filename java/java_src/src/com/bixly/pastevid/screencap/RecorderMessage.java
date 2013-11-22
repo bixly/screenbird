@@ -6,7 +6,7 @@
  * Created on Mar 28, 2012, 10:15:16 AM
  * 23 May 2013
  */
-package com.bixly.pastevid.screencap;
+package com.your-keystore-here.pastevid.screencap;
 
 import javax.swing.JProgressBar;
 
@@ -42,7 +42,7 @@ public class RecorderMessage extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jrpRecorderMessage = new com.bixly.pastevid.util.view.JRoundedPanel();
+        jrpRecorderMessage = new com.your-keystore-here.pastevid.util.view.JRoundedPanel();
         lblRecorderMessage = new javax.swing.JLabel();
         pbEncodingPrevVideo = new javax.swing.JProgressBar();
 
@@ -87,7 +87,7 @@ public class RecorderMessage extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private com.bixly.pastevid.util.view.JRoundedPanel jrpRecorderMessage;
+    private com.your-keystore-here.pastevid.util.view.JRoundedPanel jrpRecorderMessage;
     private javax.swing.JLabel lblRecorderMessage;
     private javax.swing.JProgressBar pbEncodingPrevVideo;
     // End of variables declaration//GEN-END:variables

@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.driver;
+package com.your-keystore-here.pastevid.driver;
 
-import com.bixly.pastevid.util.DebugUtil;
+import com.your-keystore-here.pastevid.util.DebugUtil;
 import javax.swing.JApplet;
 
 /**

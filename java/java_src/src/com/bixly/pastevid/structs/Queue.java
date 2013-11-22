@@ -5,7 +5,7 @@
  * 
  * 17 May 2013
  */
-package com.bixly.pastevid.structs;
+package com.your-keystore-here.pastevid.structs;
 
 import java.util.Vector;
 

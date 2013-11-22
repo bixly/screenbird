@@ -1,6 +1,6 @@
-package com.bixly.pastevid.models;
+package com.your-keystore-here.pastevid.models;
 
-import com.bixly.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.LogUtil;
 import java.io.File;
 import org.junit.After;
 import org.junit.AfterClass;

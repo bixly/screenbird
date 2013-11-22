@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.util;
+package com.your-keystore-here.util;
 
 import java.util.HashMap;
 import java.util.Random;

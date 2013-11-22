@@ -5,12 +5,12 @@
  * 
  * 25 May 2013
  */
-package com.bixly.pastevid.screencap.components.inworks;
+package com.your-keystore-here.pastevid.screencap.components.inworks;
 
-import com.bixly.pastevid.common.Unimplemented;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.ResourceUtil;
-import com.bixly.pastevid.util.view.JSliderCustomKnob;
+import com.your-keystore-here.pastevid.common.Unimplemented;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.ResourceUtil;
+import com.your-keystore-here.pastevid.util.view.JSliderCustomKnob;
 import java.awt.Dimension;
 import java.awt.Image;
 import java.io.IOException;

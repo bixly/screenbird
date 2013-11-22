@@ -18,16 +18,16 @@
  */
 package it.sauronsoftware.jave.locators;
 
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.download.DownloadFFMpeg;
-import com.bixly.pastevid.download.DownloadManager;
-import com.bixly.pastevid.download.DownloadStatus;
-import com.bixly.pastevid.download.DownloadThread;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.MediaUtil;
-import com.bixly.pastevid.screencap.components.progressbar.FFMpegProgressBarListener;
-import com.bixly.pastevid.screencap.components.progressbar.FFMpegTask;
-import com.bixly.pastevid.util.TimeUtil;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.download.DownloadFFMpeg;
+import com.your-keystore-here.pastevid.download.DownloadManager;
+import com.your-keystore-here.pastevid.download.DownloadStatus;
+import com.your-keystore-here.pastevid.download.DownloadThread;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.MediaUtil;
+import com.your-keystore-here.pastevid.screencap.components.progressbar.FFMpegProgressBarListener;
+import com.your-keystore-here.pastevid.screencap.components.progressbar.FFMpegTask;
+import com.your-keystore-here.pastevid.util.TimeUtil;
 import it.sauronsoftware.jave.Encoder;
 import java.io.BufferedReader;
 import java.io.File;

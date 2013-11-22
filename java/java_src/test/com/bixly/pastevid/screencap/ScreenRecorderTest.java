@@ -2,10 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.screencap;
+package com.your-keystore-here.pastevid.screencap;
 
-import com.bixly.pastevid.Session;
-import com.bixly.pastevid.util.TimeUtil;
+import com.your-keystore-here.pastevid.Session;
+import com.your-keystore-here.pastevid.util.TimeUtil;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

@@ -2,10 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.screencap.components.preview;
+package com.your-keystore-here.pastevid.screencap.components.preview;
 
-import com.bixly.pastevid.editors.VideoScrubManager;
-import com.bixly.pastevid.util.TimeUtil;
+import com.your-keystore-here.pastevid.editors.VideoScrubManager;
+import com.your-keystore-here.pastevid.util.TimeUtil;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

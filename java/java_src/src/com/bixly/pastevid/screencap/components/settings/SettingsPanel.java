@@ -6,11 +6,11 @@
  * Created on Nov 30, 2011, 9:38:09 AM
  * 17 May 2013
  */
-package com.bixly.pastevid.screencap.components.settings;
+package com.your-keystore-here.pastevid.screencap.components.settings;
 
-import com.bixly.pastevid.recorders.Recorder;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.view.JSliderCustomKnob;
+import com.your-keystore-here.pastevid.recorders.Recorder;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.view.JSliderCustomKnob;
 import java.awt.Dimension;
 import javax.swing.JFrame;
 import javax.swing.JSlider;
@@ -92,7 +92,7 @@ public class SettingsPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jfSettings = new com.bixly.pastevid.util.view.JRoundedPanel();
+        jfSettings = new com.your-keystore-here.pastevid.util.view.JRoundedPanel();
         btnCancel1 = new javax.swing.JButton();
         btnMinimize = new javax.swing.JButton();
         lblVideoQuality = new javax.swing.JLabel();
@@ -104,7 +104,7 @@ public class SettingsPanel extends javax.swing.JPanel {
 
         btnCancel1.setBackground(java.awt.Color.darkGray);
         btnCancel1.setForeground(new java.awt.Color(255, 255, 255));
-        btnCancel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/x.png"))); // NOI18N
+        btnCancel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/x.png"))); // NOI18N
         btnCancel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnCancel1.setDoubleBuffered(true);
         btnCancel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -112,8 +112,8 @@ public class SettingsPanel extends javax.swing.JPanel {
         btnCancel1.setMinimumSize(new java.awt.Dimension(24, 24));
         btnCancel1.setName("btnCancel"); // NOI18N
         btnCancel1.setPreferredSize(new java.awt.Dimension(24, 24));
-        btnCancel1.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/x.png"))); // NOI18N
-        btnCancel1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/x.png"))); // NOI18N
+        btnCancel1.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/x.png"))); // NOI18N
+        btnCancel1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/x.png"))); // NOI18N
         btnCancel1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCancel1ActionPerformed(evt);
@@ -122,7 +122,7 @@ public class SettingsPanel extends javax.swing.JPanel {
 
         btnMinimize.setBackground(java.awt.Color.darkGray);
         btnMinimize.setForeground(new java.awt.Color(255, 255, 255));
-        btnMinimize.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/min.png"))); // NOI18N
+        btnMinimize.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/min.png"))); // NOI18N
         btnMinimize.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnMinimize.setDoubleBuffered(true);
         btnMinimize.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -130,8 +130,8 @@ public class SettingsPanel extends javax.swing.JPanel {
         btnMinimize.setMinimumSize(new java.awt.Dimension(24, 24));
         btnMinimize.setName("btnMinimize"); // NOI18N
         btnMinimize.setPreferredSize(new java.awt.Dimension(24, 24));
-        btnMinimize.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/min.png"))); // NOI18N
-        btnMinimize.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/min.png"))); // NOI18N
+        btnMinimize.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/min.png"))); // NOI18N
+        btnMinimize.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/min.png"))); // NOI18N
         btnMinimize.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMinimizeActionPerformed(evt);
@@ -240,7 +240,7 @@ public class SettingsPanel extends javax.swing.JPanel {
     public javax.swing.JButton btnCancel1;
     public javax.swing.JButton btnMinimize;
     private javax.swing.JSlider jSliderFast;
-    private com.bixly.pastevid.util.view.JRoundedPanel jfSettings;
+    private com.your-keystore-here.pastevid.util.view.JRoundedPanel jfSettings;
     private javax.swing.JLabel lblVideoQuality;
     // End of variables declaration//GEN-END:variables
 

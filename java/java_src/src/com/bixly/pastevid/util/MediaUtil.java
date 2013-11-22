@@ -5,9 +5,9 @@
  * 
  * 17 May 2013
  */
-package com.bixly.pastevid.util;
+package com.your-keystore-here.pastevid.util;
 
-import com.bixly.pastevid.Settings;
+import com.your-keystore-here.pastevid.Settings;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.net.SocketException;

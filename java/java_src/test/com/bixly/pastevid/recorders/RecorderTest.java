@@ -1,6 +1,6 @@
-package com.bixly.pastevid.recorders;
+package com.your-keystore-here.pastevid.recorders;
 
-import com.bixly.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.LogUtil;
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;

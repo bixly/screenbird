@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.screencap.components.preview;
+package com.your-keystore-here.pastevid.screencap.components.preview;
 
-import com.bixly.pastevid.Settings;
+import com.your-keystore-here.pastevid.Settings;
 import java.awt.AWTException;
 import java.awt.Rectangle;
 import java.awt.Robot;
@@ -17,8 +17,8 @@ import javax.imageio.ImageIO;
 import javax.imageio.ImageWriteParam;
 import javax.imageio.ImageWriter;
 import javax.imageio.stream.FileImageOutputStream;
-import com.bixly.pastevid.editors.VideoScrubManager;
-import com.bixly.pastevid.util.TimeUtil;
+import com.your-keystore-here.pastevid.editors.VideoScrubManager;
+import com.your-keystore-here.pastevid.util.TimeUtil;
 import java.awt.image.BufferedImage;
 import org.junit.After;
 import org.junit.AfterClass;

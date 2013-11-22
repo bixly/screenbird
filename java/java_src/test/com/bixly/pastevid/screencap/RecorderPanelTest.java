@@ -2,14 +2,14 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.screencap;
+package com.your-keystore-here.pastevid.screencap;
 
-import com.bixly.pastevid.Session;
-import com.bixly.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.Session;
+import com.your-keystore-here.pastevid.util.LogUtil;
 import java.awt.GraphicsConfiguration;
-import com.bixly.pastevid.recorders.Recorder;
-import com.bixly.pastevid.recorders.RecorderStatus;
-import com.bixly.pastevid.util.TimeUtil;
+import com.your-keystore-here.pastevid.recorders.Recorder;
+import com.your-keystore-here.pastevid.recorders.RecorderStatus;
+import com.your-keystore-here.pastevid.util.TimeUtil;
 import java.awt.Color;
 import java.awt.GraphicsDevice;
 import org.junit.After;
@@ -18,7 +18,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
-import com.bixly.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.LogUtil;
 import static org.junit.Assert.*;
 
 /**

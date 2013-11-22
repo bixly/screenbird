@@ -5,7 +5,7 @@
  * 
  * 4 May 2013
  */
-package com.bixly.pastevid.editors;
+package com.your-keystore-here.pastevid.editors;
 
 import java.awt.image.BufferedImage;
 import java.io.File;

@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.models;
+package com.your-keystore-here.pastevid.models;
 
-import com.bixly.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.LogUtil;
 import java.util.HashMap;
 import org.junit.After;
 import org.junit.AfterClass;

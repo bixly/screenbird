@@ -5,9 +5,9 @@
  * 
  * 20 May 2013
  */
-package com.bixly.pastevid.util.view;
+package com.your-keystore-here.pastevid.util.view;
 
-import com.bixly.pastevid.screencap.components.inworks.JSliderSB;
+import com.your-keystore-here.pastevid.screencap.components.inworks.JSliderSB;
 import java.awt.Container;
 
 /**

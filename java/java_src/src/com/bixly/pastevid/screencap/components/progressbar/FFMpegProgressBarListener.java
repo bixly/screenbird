@@ -5,9 +5,9 @@
  * 
  * 17 May 2013
  */
-package com.bixly.pastevid.screencap.components.progressbar;
+package com.your-keystore-here.pastevid.screencap.components.progressbar;
 
-import com.bixly.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.LogUtil;
 import it.sauronsoftware.jave.Encoder;
 import java.util.regex.Matcher;
 import javax.swing.JProgressBar;

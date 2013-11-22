@@ -19,7 +19,7 @@
  */
 package com.bric.qt.io;
 
-import com.bixly.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.LogUtil;
 import java.io.EOFException;
 import java.io.IOException;
 import java.io.InputStream;

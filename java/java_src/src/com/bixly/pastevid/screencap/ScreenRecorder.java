@@ -1,4 +1,4 @@
-package com.bixly.pastevid.screencap;
+package com.your-keystore-here.pastevid.screencap;
 
 import com.sun.awt.AWTUtilities;
 import java.awt.AWTException;
@@ -19,19 +19,19 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import org.netbeans.lib.awtextra.AbsoluteLayout;
 
-import com.bixly.pastevid.Session;
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.TestSettings;
-import com.bixly.pastevid.download.DownloadFFMpeg;
-import com.bixly.pastevid.download.DownloadHandbrake;
-import com.bixly.pastevid.download.DownloadManager;
-import com.bixly.pastevid.download.DownloadUnzip;
-import com.bixly.pastevid.ipc.InstanceManager;
-import com.bixly.pastevid.models.User;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.MediaUtil;
-import com.bixly.pastevid.util.PropertiesUtil;
-import com.bixly.pastevid.util.ResourceUtil;
+import com.your-keystore-here.pastevid.Session;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.TestSettings;
+import com.your-keystore-here.pastevid.download.DownloadFFMpeg;
+import com.your-keystore-here.pastevid.download.DownloadHandbrake;
+import com.your-keystore-here.pastevid.download.DownloadManager;
+import com.your-keystore-here.pastevid.download.DownloadUnzip;
+import com.your-keystore-here.pastevid.ipc.InstanceManager;
+import com.your-keystore-here.pastevid.models.User;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.MediaUtil;
+import com.your-keystore-here.pastevid.util.PropertiesUtil;
+import com.your-keystore-here.pastevid.util.ResourceUtil;
 
 
 /**
@@ -473,7 +473,7 @@ public void actionPerformed(ActionEvent e) {
     private void initComponents() {
 
         setBackground(new Color(64, 64, 64));
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/com/bixly/pastevid/resources/logo-taskbar.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/com/your-keystore-here/pastevid/resources/logo-taskbar.png")));
         setName("ScreenRecorder"); // NOI18N
         getContentPane().setLayout(new AbsoluteLayout());
     }// </editor-fold>//GEN-END:initComponents

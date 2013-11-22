@@ -5,15 +5,15 @@
  * 
  * 8 May 2013
  */
-package com.bixly.pastevid.recorders;
+package com.your-keystore-here.pastevid.recorders;
 
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.models.AudioFileItem;
-import com.bixly.pastevid.models.Silent;
-import com.bixly.pastevid.screencap.components.IAudioObserver;
-import com.bixly.pastevid.screencap.components.IAudioSubject;
-import com.bixly.pastevid.util.FileUtil;
-import com.bixly.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.models.AudioFileItem;
+import com.your-keystore-here.pastevid.models.Silent;
+import com.your-keystore-here.pastevid.screencap.components.IAudioObserver;
+import com.your-keystore-here.pastevid.screencap.components.IAudioSubject;
+import com.your-keystore-here.pastevid.util.FileUtil;
+import com.your-keystore-here.pastevid.util.LogUtil;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

@@ -2,15 +2,15 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.util;
+package com.your-keystore-here.pastevid.util;
 
-import com.bixly.pastevid.Session;
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.download.DownloadFFMpeg;
-import com.bixly.pastevid.download.DownloadHandbrake;
-import com.bixly.pastevid.download.DownloadManager;
-import com.bixly.pastevid.download.DownloadUnzip;
-import com.bixly.pastevid.recorders.IMeasurable;
+import com.your-keystore-here.pastevid.Session;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.download.DownloadFFMpeg;
+import com.your-keystore-here.pastevid.download.DownloadHandbrake;
+import com.your-keystore-here.pastevid.download.DownloadManager;
+import com.your-keystore-here.pastevid.download.DownloadUnzip;
+import com.your-keystore-here.pastevid.recorders.IMeasurable;
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
@@ -19,8 +19,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import org.junit.Rule;
 import org.junit.rules.TemporaryFolder;
-import com.bixly.pastevid.screencap.components.progressbar.FFMpegProgressBarListener;
-import com.bixly.pastevid.util.temporary.TestSerializable;
+import com.your-keystore-here.pastevid.screencap.components.progressbar.FFMpegProgressBarListener;
+import com.your-keystore-here.pastevid.util.temporary.TestSerializable;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.util.ArrayList;

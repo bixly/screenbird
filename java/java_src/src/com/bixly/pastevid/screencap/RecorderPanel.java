@@ -5,36 +5,36 @@
  * 
  * 10 May 2013
  */
-package com.bixly.pastevid.screencap;
+package com.your-keystore-here.pastevid.screencap;
 
-import com.bixly.pastevid.Session;
-import com.bixly.pastevid.Settings;
-import com.bixly.pastevid.download.DownloadManager;
-import com.bixly.pastevid.download.DownloadStatus;
-import com.bixly.pastevid.download.DownloadThread;
-import com.bixly.pastevid.editors.VideoScrubManager;
-import com.bixly.pastevid.recorders.IMeasurable;
-import com.bixly.pastevid.recorders.Recorder;
-import com.bixly.pastevid.recorders.RecorderStatus;
-import com.bixly.pastevid.recorders.UnsupportedBitRateCompression;
-import com.bixly.pastevid.screencap.components.*;
-import com.bixly.pastevid.screencap.components.capturebox.CaptureBox;
-import com.bixly.pastevid.screencap.components.capturebox.CaptureBoxController;
-import com.bixly.pastevid.screencap.components.capturebox.CaptureBoxState;
-import com.bixly.pastevid.screencap.components.capturebox.Countdown;
-import com.bixly.pastevid.screencap.components.progressbar.FFMpegProgressBarListener;
-import com.bixly.pastevid.screencap.components.progressbar.ProgressBarUploadProgressListener;
-import com.bixly.pastevid.screencap.components.settings.SettingsForm;
-import com.bixly.pastevid.util.FileUtil;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.util.MediaUtil;
-import com.bixly.pastevid.util.ResourceUtil;
-import com.bixly.pastevid.util.ScreenUtil;
-import com.bixly.pastevid.util.SoundUtil;
-import com.bixly.pastevid.util.TimeUtil;
-import com.bixly.pastevid.util.view.JRoundedPanel;
-import com.bixly.pastevid.util.view.MouseMoveListener;
-import com.bixly.pastevid.util.view.MovFileFilter;
+import com.your-keystore-here.pastevid.Session;
+import com.your-keystore-here.pastevid.Settings;
+import com.your-keystore-here.pastevid.download.DownloadManager;
+import com.your-keystore-here.pastevid.download.DownloadStatus;
+import com.your-keystore-here.pastevid.download.DownloadThread;
+import com.your-keystore-here.pastevid.editors.VideoScrubManager;
+import com.your-keystore-here.pastevid.recorders.IMeasurable;
+import com.your-keystore-here.pastevid.recorders.Recorder;
+import com.your-keystore-here.pastevid.recorders.RecorderStatus;
+import com.your-keystore-here.pastevid.recorders.UnsupportedBitRateCompression;
+import com.your-keystore-here.pastevid.screencap.components.*;
+import com.your-keystore-here.pastevid.screencap.components.capturebox.CaptureBox;
+import com.your-keystore-here.pastevid.screencap.components.capturebox.CaptureBoxController;
+import com.your-keystore-here.pastevid.screencap.components.capturebox.CaptureBoxState;
+import com.your-keystore-here.pastevid.screencap.components.capturebox.Countdown;
+import com.your-keystore-here.pastevid.screencap.components.progressbar.FFMpegProgressBarListener;
+import com.your-keystore-here.pastevid.screencap.components.progressbar.ProgressBarUploadProgressListener;
+import com.your-keystore-here.pastevid.screencap.components.settings.SettingsForm;
+import com.your-keystore-here.pastevid.util.FileUtil;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.util.MediaUtil;
+import com.your-keystore-here.pastevid.util.ResourceUtil;
+import com.your-keystore-here.pastevid.util.ScreenUtil;
+import com.your-keystore-here.pastevid.util.SoundUtil;
+import com.your-keystore-here.pastevid.util.TimeUtil;
+import com.your-keystore-here.pastevid.util.view.JRoundedPanel;
+import com.your-keystore-here.pastevid.util.view.MouseMoveListener;
+import com.your-keystore-here.pastevid.util.view.MovFileFilter;
 import com.sun.awt.AWTUtilities;
 import java.awt.Color;
 import java.awt.Component;
@@ -2131,7 +2131,7 @@ public class RecorderPanel extends JPanel
         lblClockNonRec.setFont(new Font("Lucida Grande", 1, 14)); // NOI18N
         lblClockNonRec.setForeground(new Color(255, 255, 255));
         lblClockNonRec.setHorizontalAlignment(SwingConstants.CENTER);
-        lblClockNonRec.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/timer.png"))); // NOI18N
+        lblClockNonRec.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/timer.png"))); // NOI18N
         lblClockNonRec.setText("00:00");
         lblClockNonRec.setHorizontalTextPosition(SwingConstants.CENTER);
         lblClockNonRec.setIconTextGap(0);
@@ -2144,7 +2144,7 @@ public class RecorderPanel extends JPanel
         btnRecordNonRec.setBackground(Color.darkGray);
         btnRecordNonRec.setFont(new Font("Lucida Grande", 1, 12)); // NOI18N
         btnRecordNonRec.setForeground(new Color(255, 255, 255));
-        btnRecordNonRec.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/redButton.png"))); // NOI18N
+        btnRecordNonRec.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/redButton.png"))); // NOI18N
         btnRecordNonRec.setText("Record");
         btnRecordNonRec.setBorder(BorderFactory.createLineBorder(new Color(60, 60, 60), 2));
         btnRecordNonRec.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -2154,7 +2154,7 @@ public class RecorderPanel extends JPanel
 
         btnCancelNonRec.setBackground(Color.darkGray);
         btnCancelNonRec.setForeground(new Color(255, 255, 255));
-        btnCancelNonRec.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/x.png"))); // NOI18N
+        btnCancelNonRec.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/x.png"))); // NOI18N
         btnCancelNonRec.setBorder(BorderFactory.createBevelBorder(BevelBorder.RAISED));
         btnCancelNonRec.setDoubleBuffered(true);
         btnCancelNonRec.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -2162,8 +2162,8 @@ public class RecorderPanel extends JPanel
         btnCancelNonRec.setMinimumSize(new Dimension(24, 24));
         btnCancelNonRec.setName("btnCancelRecorder"); // NOI18N
         btnCancelNonRec.setPreferredSize(new Dimension(24, 24));
-        btnCancelNonRec.setPressedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/x.png"))); // NOI18N
-        btnCancelNonRec.setRolloverIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/x.png"))); // NOI18N
+        btnCancelNonRec.setPressedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/x.png"))); // NOI18N
+        btnCancelNonRec.setRolloverIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/x.png"))); // NOI18N
         btnCancelNonRec.addActionListener(formListener);
         jpRecorderNonRec.add(btnCancelNonRec, new AbsoluteConstraints(300, 10, -1, -1));
 
@@ -2179,7 +2179,7 @@ public class RecorderPanel extends JPanel
 
         toggleFullScreen.setBackground(Color.darkGray);
         toggleFullScreen.setForeground(Color.white);
-        toggleFullScreen.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/button-large-unpressed.png"))); // NOI18N
+        toggleFullScreen.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/button-large-unpressed.png"))); // NOI18N
         toggleFullScreen.setSelected(true);
         toggleFullScreen.setText("Fullscreen");
         toggleFullScreen.setBorder(null);
@@ -2189,15 +2189,15 @@ public class RecorderPanel extends JPanel
         toggleFullScreen.setHorizontalTextPosition(SwingConstants.CENTER);
         toggleFullScreen.setIconTextGap(0);
         toggleFullScreen.setName("toggleFullScreen"); // NOI18N
-        toggleFullScreen.setPressedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/button-large-pressed.png"))); // NOI18N
-        toggleFullScreen.setSelectedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/button-large-pressed.png"))); // NOI18N
+        toggleFullScreen.setPressedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/button-large-pressed.png"))); // NOI18N
+        toggleFullScreen.setSelectedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/button-large-pressed.png"))); // NOI18N
         toggleFullScreen.addActionListener(formListener);
         jpRecorderNonRec.add(toggleFullScreen, new AbsoluteConstraints(10, 10, -1, 25));
         toggleFullScreen.getAccessibleContext().setAccessibleDescription("Change between Fullscreen and Custom");
 
         btnMinimizeNonRec.setBackground(Color.darkGray);
         btnMinimizeNonRec.setForeground(new Color(255, 255, 255));
-        btnMinimizeNonRec.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/min.png"))); // NOI18N
+        btnMinimizeNonRec.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/min.png"))); // NOI18N
         btnMinimizeNonRec.setBorder(BorderFactory.createBevelBorder(BevelBorder.RAISED));
         btnMinimizeNonRec.setDoubleBuffered(true);
         btnMinimizeNonRec.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -2205,8 +2205,8 @@ public class RecorderPanel extends JPanel
         btnMinimizeNonRec.setMinimumSize(new Dimension(24, 24));
         btnMinimizeNonRec.setName("btnMinimizeRecorder"); // NOI18N
         btnMinimizeNonRec.setPreferredSize(new Dimension(24, 24));
-        btnMinimizeNonRec.setPressedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/min.png"))); // NOI18N
-        btnMinimizeNonRec.setRolloverIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/min.png"))); // NOI18N
+        btnMinimizeNonRec.setPressedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/min.png"))); // NOI18N
+        btnMinimizeNonRec.setRolloverIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/min.png"))); // NOI18N
         btnMinimizeNonRec.addActionListener(formListener);
         jpRecorderNonRec.add(btnMinimizeNonRec, new AbsoluteConstraints(270, 10, -1, -1));
         jpRecorderNonRec.add(jpRecorderMessage, new AbsoluteConstraints(10, 50, 310, 40));
@@ -2220,7 +2220,7 @@ public class RecorderPanel extends JPanel
         lblClockRec.setFont(new Font("Lucida Grande", 1, 14)); // NOI18N
         lblClockRec.setForeground(new Color(255, 255, 255));
         lblClockRec.setHorizontalAlignment(SwingConstants.CENTER);
-        lblClockRec.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/timer.png"))); // NOI18N
+        lblClockRec.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/timer.png"))); // NOI18N
         lblClockRec.setText("00:00");
         lblClockRec.setHorizontalTextPosition(SwingConstants.CENTER);
         lblClockRec.setIconTextGap(0);
@@ -2233,7 +2233,7 @@ public class RecorderPanel extends JPanel
         btnRecordRec.setBackground(Color.darkGray);
         btnRecordRec.setFont(new Font("Lucida Grande", 1, 12)); // NOI18N
         btnRecordRec.setForeground(new Color(255, 255, 255));
-        btnRecordRec.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/redButton.png"))); // NOI18N
+        btnRecordRec.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/redButton.png"))); // NOI18N
         btnRecordRec.setText("Stop");
         btnRecordRec.setBorder(BorderFactory.createLineBorder(new Color(60, 60, 60), 2));
         btnRecordRec.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -2253,7 +2253,7 @@ public class RecorderPanel extends JPanel
 
         btnMinimizeRec.setBackground(Color.darkGray);
         btnMinimizeRec.setForeground(new Color(255, 255, 255));
-        btnMinimizeRec.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/min.png"))); // NOI18N
+        btnMinimizeRec.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/min.png"))); // NOI18N
         btnMinimizeRec.setBorder(BorderFactory.createBevelBorder(BevelBorder.RAISED));
         btnMinimizeRec.setDoubleBuffered(true);
         btnMinimizeRec.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -2261,8 +2261,8 @@ public class RecorderPanel extends JPanel
         btnMinimizeRec.setMinimumSize(new Dimension(24, 24));
         btnMinimizeRec.setName("btnMinimizeRecorder"); // NOI18N
         btnMinimizeRec.setPreferredSize(new Dimension(24, 24));
-        btnMinimizeRec.setPressedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/min.png"))); // NOI18N
-        btnMinimizeRec.setRolloverIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/min.png"))); // NOI18N
+        btnMinimizeRec.setPressedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/min.png"))); // NOI18N
+        btnMinimizeRec.setRolloverIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/min.png"))); // NOI18N
         btnMinimizeRec.addActionListener(formListener);
         jpRecorderRec.add(btnMinimizeRec, new AbsoluteConstraints(180, 10, -1, -1));
 
@@ -2275,7 +2275,7 @@ public class RecorderPanel extends JPanel
         lblClockBackup.setFont(new Font("Lucida Grande", 1, 14)); // NOI18N
         lblClockBackup.setForeground(new Color(255, 255, 255));
         lblClockBackup.setHorizontalAlignment(SwingConstants.CENTER);
-        lblClockBackup.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/timer.png"))); // NOI18N
+        lblClockBackup.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/timer.png"))); // NOI18N
         lblClockBackup.setText("00:00");
         lblClockBackup.setHorizontalTextPosition(SwingConstants.CENTER);
         lblClockBackup.setIconTextGap(0);
@@ -2288,20 +2288,20 @@ public class RecorderPanel extends JPanel
         btnFinalizeBackup.setBackground(Color.darkGray);
         btnFinalizeBackup.setFont(new Font("Lucida Grande", 1, 12)); // NOI18N
         btnFinalizeBackup.setForeground(new Color(255, 255, 255));
-        btnFinalizeBackup.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/check-red.png"))); // NOI18N
+        btnFinalizeBackup.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/check-red.png"))); // NOI18N
         btnFinalizeBackup.setEnabled(false);
         btnFinalizeBackup.setHorizontalTextPosition(SwingConstants.CENTER);
         btnFinalizeBackup.setMaximumSize(new Dimension(24, 24));
         btnFinalizeBackup.setMinimumSize(new Dimension(24, 24));
         btnFinalizeBackup.setName("btnFinalizeBackup"); // NOI18N
         btnFinalizeBackup.setPreferredSize(new Dimension(24, 24));
-        btnFinalizeBackup.setPressedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/check-red-pressed.png"))); // NOI18N
+        btnFinalizeBackup.setPressedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/check-red-pressed.png"))); // NOI18N
         btnFinalizeBackup.addActionListener(formListener);
         jpRecorderBackup.add(btnFinalizeBackup, new AbsoluteConstraints(230, 10, 24, 24));
 
         btnCancelBackup.setBackground(Color.darkGray);
         btnCancelBackup.setForeground(new Color(255, 255, 255));
-        btnCancelBackup.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/x.png"))); // NOI18N
+        btnCancelBackup.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/x.png"))); // NOI18N
         btnCancelBackup.setBorder(BorderFactory.createBevelBorder(BevelBorder.RAISED));
         btnCancelBackup.setDoubleBuffered(true);
         btnCancelBackup.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -2309,8 +2309,8 @@ public class RecorderPanel extends JPanel
         btnCancelBackup.setMinimumSize(new Dimension(24, 24));
         btnCancelBackup.setName("btnCancelRecorder"); // NOI18N
         btnCancelBackup.setPreferredSize(new Dimension(24, 24));
-        btnCancelBackup.setPressedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/x.png"))); // NOI18N
-        btnCancelBackup.setRolloverIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/x.png"))); // NOI18N
+        btnCancelBackup.setPressedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/x.png"))); // NOI18N
+        btnCancelBackup.setRolloverIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/x.png"))); // NOI18N
         btnCancelBackup.addActionListener(formListener);
         jpRecorderBackup.add(btnCancelBackup, new AbsoluteConstraints(290, 10, -1, -1));
 
@@ -2326,7 +2326,7 @@ public class RecorderPanel extends JPanel
 
         toggleFullScreenBackup.setBackground(Color.darkGray);
         toggleFullScreenBackup.setForeground(Color.white);
-        toggleFullScreenBackup.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/button-large-unpressed.png"))); // NOI18N
+        toggleFullScreenBackup.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/button-large-unpressed.png"))); // NOI18N
         toggleFullScreenBackup.setSelected(true);
         toggleFullScreenBackup.setText("Fullscreen");
         toggleFullScreenBackup.setBorder(null);
@@ -2336,15 +2336,15 @@ public class RecorderPanel extends JPanel
         toggleFullScreenBackup.setHorizontalTextPosition(SwingConstants.CENTER);
         toggleFullScreenBackup.setIconTextGap(0);
         toggleFullScreenBackup.setName("toggleFullScreen"); // NOI18N
-        toggleFullScreenBackup.setPressedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/button-large-pressed.png"))); // NOI18N
-        toggleFullScreenBackup.setSelectedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/button-large-pressed.png"))); // NOI18N
+        toggleFullScreenBackup.setPressedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/button-large-pressed.png"))); // NOI18N
+        toggleFullScreenBackup.setSelectedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/button-large-pressed.png"))); // NOI18N
         toggleFullScreenBackup.addActionListener(formListener);
         jpRecorderBackup.add(toggleFullScreenBackup, new AbsoluteConstraints(10, 10, -1, 25));
         jpRecorderBackup.add(jpRecorderMessageBackup, new AbsoluteConstraints(10, 50, 310, 30));
 
         btnMinimizeBackup1.setBackground(Color.darkGray);
         btnMinimizeBackup1.setForeground(new Color(255, 255, 255));
-        btnMinimizeBackup1.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/min.png"))); // NOI18N
+        btnMinimizeBackup1.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/min.png"))); // NOI18N
         btnMinimizeBackup1.setBorder(BorderFactory.createBevelBorder(BevelBorder.RAISED));
         btnMinimizeBackup1.setDoubleBuffered(true);
         btnMinimizeBackup1.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -2352,21 +2352,21 @@ public class RecorderPanel extends JPanel
         btnMinimizeBackup1.setMinimumSize(new Dimension(24, 24));
         btnMinimizeBackup1.setName("btnMinimizeRecorder"); // NOI18N
         btnMinimizeBackup1.setPreferredSize(new Dimension(24, 24));
-        btnMinimizeBackup1.setPressedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/min.png"))); // NOI18N
-        btnMinimizeBackup1.setRolloverIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/min.png"))); // NOI18N
+        btnMinimizeBackup1.setPressedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/min.png"))); // NOI18N
+        btnMinimizeBackup1.setRolloverIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/min.png"))); // NOI18N
         btnMinimizeBackup1.addActionListener(formListener);
         jpRecorderBackup.add(btnMinimizeBackup1, new AbsoluteConstraints(260, 10, -1, -1));
 
         btnPlayPauseBackup.setBackground(Color.darkGray);
         btnPlayPauseBackup.setForeground(new Color(255, 255, 255));
-        btnPlayPauseBackup.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/record.png"))); // NOI18N
+        btnPlayPauseBackup.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/record.png"))); // NOI18N
         btnPlayPauseBackup.setToolTipText("");
         btnPlayPauseBackup.setHorizontalTextPosition(SwingConstants.CENTER);
         btnPlayPauseBackup.setMaximumSize(new Dimension(24, 24));
         btnPlayPauseBackup.setMinimumSize(new Dimension(24, 24));
         btnPlayPauseBackup.setName("btnPlay"); // NOI18N
         btnPlayPauseBackup.setPreferredSize(new Dimension(24, 24));
-        btnPlayPauseBackup.setPressedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/record-pressed.png"))); // NOI18N
+        btnPlayPauseBackup.setPressedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/record-pressed.png"))); // NOI18N
         btnPlayPauseBackup.addActionListener(formListener);
         jpRecorderBackup.add(btnPlayPauseBackup, new AbsoluteConstraints(200, 10, 24, 24));
 
@@ -2381,11 +2381,11 @@ public class RecorderPanel extends JPanel
         jLabel3.setForeground(new Color(109, 109, 109));
         jLabel3.setText("Description");
 
-        btnPlay.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/upload/play_normal.png"))); // NOI18N
+        btnPlay.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/upload/play_normal.png"))); // NOI18N
         btnPlay.setBorderPainted(false);
         btnPlay.setContentAreaFilled(false);
-        btnPlay.setPressedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/upload/play_pushed.png"))); // NOI18N
-        btnPlay.setRolloverIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/upload/play_upload.png"))); // NOI18N
+        btnPlay.setPressedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/upload/play_pushed.png"))); // NOI18N
+        btnPlay.setRolloverIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/upload/play_upload.png"))); // NOI18N
         btnPlay.addActionListener(formListener);
 
         txtDescription.setColumns(20);
@@ -2397,16 +2397,16 @@ public class RecorderPanel extends JPanel
         chkAutoUpload.setFont(new Font("Arial", 0, 14)); // NOI18N
         chkAutoUpload.setForeground(new Color(109, 109, 109));
         chkAutoUpload.setText("Auto Upload");
-        chkAutoUpload.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/upload/checkbox_unchecked.png"))); // NOI18N
-        chkAutoUpload.setSelectedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/upload/checkbox_checked.png"))); // NOI18N
+        chkAutoUpload.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/upload/checkbox_unchecked.png"))); // NOI18N
+        chkAutoUpload.setSelectedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/upload/checkbox_checked.png"))); // NOI18N
         chkAutoUpload.addActionListener(formListener);
 
         chkPublic.setBackground(new Color(216, 216, 216));
         chkPublic.setFont(new Font("Arial", 0, 14)); // NOI18N
         chkPublic.setForeground(new Color(109, 109, 109));
         chkPublic.setText("Public");
-        chkPublic.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/upload/checkbox_unchecked.png"))); // NOI18N
-        chkPublic.setSelectedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/upload/checkbox_checked.png"))); // NOI18N
+        chkPublic.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/upload/checkbox_unchecked.png"))); // NOI18N
+        chkPublic.setSelectedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/upload/checkbox_checked.png"))); // NOI18N
         chkPublic.addActionListener(formListener);
 
         lblUploadMessage.setFont(new Font("Arial", 1, 14)); // NOI18N
@@ -2424,18 +2424,18 @@ public class RecorderPanel extends JPanel
         pbEncoding.setForeground(new Color(211, 56, 61));
         pbEncoding.setValue(33);
 
-        btnUpload.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/upload/upload_normal.png"))); // NOI18N
+        btnUpload.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/upload/upload_normal.png"))); // NOI18N
         btnUpload.setBorderPainted(false);
         btnUpload.setContentAreaFilled(false);
-        btnUpload.setPressedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/upload/upload_pushed.png"))); // NOI18N
-        btnUpload.setRolloverIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/upload/upload_hover.png"))); // NOI18N
+        btnUpload.setPressedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/upload/upload_pushed.png"))); // NOI18N
+        btnUpload.setRolloverIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/upload/upload_hover.png"))); // NOI18N
         btnUpload.addActionListener(formListener);
 
-        btnSaveAs.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/upload/save-a-copy_normal.png"))); // NOI18N
+        btnSaveAs.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/upload/save-a-copy_normal.png"))); // NOI18N
         btnSaveAs.setBorderPainted(false);
         btnSaveAs.setContentAreaFilled(false);
-        btnSaveAs.setPressedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/upload/save-a-copy_pushed.png"))); // NOI18N
-        btnSaveAs.setRolloverIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/upload/save-a-copy_hover.png"))); // NOI18N
+        btnSaveAs.setPressedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/upload/save-a-copy_pushed.png"))); // NOI18N
+        btnSaveAs.setRolloverIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/upload/save-a-copy_hover.png"))); // NOI18N
         btnSaveAs.addActionListener(formListener);
 
         btnCopy.setFont(new Font("Arial", 0, 14)); // NOI18N
@@ -2465,7 +2465,7 @@ public class RecorderPanel extends JPanel
 
         btnCancel.setBackground(Color.white);
         btnCancel.setForeground(new Color(255, 255, 255));
-        btnCancel.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/close_normal.png"))); // NOI18N
+        btnCancel.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/close_normal.png"))); // NOI18N
         btnCancel.setAlignmentY(0.0F);
         btnCancel.setBorder(null);
         btnCancel.setBorderPainted(false);
@@ -2478,14 +2478,14 @@ public class RecorderPanel extends JPanel
         btnCancel.setMinimumSize(new Dimension(42, 16));
         btnCancel.setName("btnCancelRecorder"); // NOI18N
         btnCancel.setPreferredSize(new Dimension(42, 16));
-        btnCancel.setPressedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/close_normal.png"))); // NOI18N
-        btnCancel.setRolloverIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/close_hover.png"))); // NOI18N
+        btnCancel.setPressedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/close_normal.png"))); // NOI18N
+        btnCancel.setRolloverIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/close_hover.png"))); // NOI18N
         btnCancel.setVerticalAlignment(SwingConstants.TOP);
         btnCancel.addActionListener(formListener);
 
         btnMinimize1.setBackground(Color.darkGray);
         btnMinimize1.setForeground(new Color(255, 255, 255));
-        btnMinimize1.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/minimize_normal.png"))); // NOI18N
+        btnMinimize1.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/minimize_normal.png"))); // NOI18N
         btnMinimize1.setBorder(null);
         btnMinimize1.setContentAreaFilled(false);
         btnMinimize1.setDoubleBuffered(true);
@@ -2497,8 +2497,8 @@ public class RecorderPanel extends JPanel
         btnMinimize1.setMinimumSize(new Dimension(21, 16));
         btnMinimize1.setName("btnMinimizeRecorder"); // NOI18N
         btnMinimize1.setPreferredSize(new Dimension(21, 16));
-        btnMinimize1.setPressedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/minimize_normal.png"))); // NOI18N
-        btnMinimize1.setRolloverIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/minimize_hover.png"))); // NOI18N
+        btnMinimize1.setPressedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/minimize_normal.png"))); // NOI18N
+        btnMinimize1.setRolloverIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/minimize_hover.png"))); // NOI18N
         btnMinimize1.addActionListener(formListener);
 
         jLabel4.setFont(new Font("Arial", 1, 13)); // NOI18N
@@ -2620,7 +2620,7 @@ public class RecorderPanel extends JPanel
         recorderPanelBG1.setMinimumSize(new Dimension(276, 62));
         recorderPanelBG1.setPreferredSize(new Dimension(276, 62));
 
-        jButton1.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/close_normal.png"))); // NOI18N
+        jButton1.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/close_normal.png"))); // NOI18N
         jButton1.setBorderPainted(false);
         jButton1.setContentAreaFilled(false);
         jButton1.setFocusPainted(false);
@@ -2628,10 +2628,10 @@ public class RecorderPanel extends JPanel
         jButton1.setMaximumSize(new Dimension(42, 17));
         jButton1.setMinimumSize(new Dimension(42, 17));
         jButton1.setPreferredSize(new Dimension(42, 17));
-        jButton1.setRolloverIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/close_hover.png"))); // NOI18N
+        jButton1.setRolloverIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/close_hover.png"))); // NOI18N
         jButton1.addActionListener(formListener);
 
-        jButton2.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/minimize_normal.png"))); // NOI18N
+        jButton2.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/minimize_normal.png"))); // NOI18N
         jButton2.setBorderPainted(false);
         jButton2.setContentAreaFilled(false);
         jButton2.setDefaultCapable(false);
@@ -2640,7 +2640,7 @@ public class RecorderPanel extends JPanel
         jButton2.setMaximumSize(new Dimension(21, 17));
         jButton2.setMinimumSize(new Dimension(21, 17));
         jButton2.setPreferredSize(new Dimension(21, 17));
-        jButton2.setRolloverIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/minimize_hover.png"))); // NOI18N
+        jButton2.setRolloverIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/minimize_hover.png"))); // NOI18N
         jButton2.addActionListener(formListener);
 
         jLabel5.setFont(new Font("Arial", 1, 13)); // NOI18N
@@ -2648,66 +2648,66 @@ public class RecorderPanel extends JPanel
         jLabel5.setText("Ready");
         jLabel5.setMaximumSize(new Dimension(27, 148));
 
-        jToggleButton1.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/record-area-btn_normal.png"))); // NOI18N
+        jToggleButton1.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/record-area-btn_normal.png"))); // NOI18N
         jToggleButton1.setToolTipText("Capture part of the screen");
         jToggleButton1.setBorderPainted(false);
         jToggleButton1.setContentAreaFilled(false);
-        jToggleButton1.setDisabledIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/record-area-btn_unavailable.png"))); // NOI18N
-        jToggleButton1.setDisabledSelectedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/record-area-btn_unavailable.png"))); // NOI18N
+        jToggleButton1.setDisabledIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/record-area-btn_unavailable.png"))); // NOI18N
+        jToggleButton1.setDisabledSelectedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/record-area-btn_unavailable.png"))); // NOI18N
         jToggleButton1.setMaximumSize(new Dimension(66, 40));
         jToggleButton1.setMinimumSize(new Dimension(66, 40));
         jToggleButton1.setPreferredSize(new Dimension(66, 40));
-        jToggleButton1.setRolloverIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/record-area-btn_hover.png"))); // NOI18N
-        jToggleButton1.setRolloverSelectedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/record-area-btn_active.png"))); // NOI18N
-        jToggleButton1.setSelectedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/record-area-btn_active.png"))); // NOI18N
+        jToggleButton1.setRolloverIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/record-area-btn_hover.png"))); // NOI18N
+        jToggleButton1.setRolloverSelectedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/record-area-btn_active.png"))); // NOI18N
+        jToggleButton1.setSelectedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/record-area-btn_active.png"))); // NOI18N
         jToggleButton1.addActionListener(formListener);
 
-        jToggleButton2.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/full-screen-record-btn_normal.png"))); // NOI18N
+        jToggleButton2.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/full-screen-record-btn_normal.png"))); // NOI18N
         jToggleButton2.setToolTipText("Capture entire screen");
         jToggleButton2.setBorderPainted(false);
         jToggleButton2.setContentAreaFilled(false);
-        jToggleButton2.setDisabledIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/full-screen-record-btn_unavailable.png"))); // NOI18N
-        jToggleButton2.setDisabledSelectedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/full-screen-record-btn_unavailable.png"))); // NOI18N
+        jToggleButton2.setDisabledIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/full-screen-record-btn_unavailable.png"))); // NOI18N
+        jToggleButton2.setDisabledSelectedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/full-screen-record-btn_unavailable.png"))); // NOI18N
         jToggleButton2.setMaximumSize(new Dimension(66, 40));
         jToggleButton2.setMinimumSize(new Dimension(66, 40));
         jToggleButton2.setPreferredSize(new Dimension(66, 40));
-        jToggleButton2.setRolloverIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/full-screen-record-btn_hover.png"))); // NOI18N
-        jToggleButton2.setRolloverSelectedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/full-screen-record-btn_active.png"))); // NOI18N
-        jToggleButton2.setSelectedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/full-screen-record-btn_active.png"))); // NOI18N
+        jToggleButton2.setRolloverIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/full-screen-record-btn_hover.png"))); // NOI18N
+        jToggleButton2.setRolloverSelectedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/full-screen-record-btn_active.png"))); // NOI18N
+        jToggleButton2.setSelectedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/full-screen-record-btn_active.png"))); // NOI18N
         jToggleButton2.addActionListener(formListener);
 
         jLabel6.setFont(new Font("Arial", 0, 26)); // NOI18N
         jLabel6.setForeground(new Color(148, 148, 148));
         jLabel6.setText("00:00");
 
-        jToggleButton3.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/record-btn_normal.png"))); // NOI18N
+        jToggleButton3.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/record-btn_normal.png"))); // NOI18N
         jToggleButton3.setToolTipText("Record");
         jToggleButton3.setBorderPainted(false);
         jToggleButton3.setContentAreaFilled(false);
-        jToggleButton3.setDisabledIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/record-btn_unavailable.png"))); // NOI18N
-        jToggleButton3.setDisabledSelectedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/record-btn_unavailable.png"))); // NOI18N
+        jToggleButton3.setDisabledIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/record-btn_unavailable.png"))); // NOI18N
+        jToggleButton3.setDisabledSelectedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/record-btn_unavailable.png"))); // NOI18N
         jToggleButton3.setMaximumSize(new Dimension(66, 40));
         jToggleButton3.setMinimumSize(new Dimension(66, 40));
         jToggleButton3.setPreferredSize(new Dimension(66, 40));
-        jToggleButton3.setRolloverIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/record-btn_hover.png"))); // NOI18N
-        jToggleButton3.setSelectedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/record-btn_active.png"))); // NOI18N
+        jToggleButton3.setRolloverIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/record-btn_hover.png"))); // NOI18N
+        jToggleButton3.setSelectedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/record-btn_active.png"))); // NOI18N
         jToggleButton3.addActionListener(formListener);
 
         soundBar1.setBorderPainted(false);
         soundBar1.setFocusable(false);
 
-        jToggleButton4.setIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/pause-btn_normal.png"))); // NOI18N
+        jToggleButton4.setIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/pause-btn_normal.png"))); // NOI18N
         jToggleButton4.setToolTipText("Pause");
         jToggleButton4.setBorderPainted(false);
         jToggleButton4.setContentAreaFilled(false);
-        jToggleButton4.setDisabledIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/pause-btn_unavailable.png"))); // NOI18N
-        jToggleButton4.setDisabledSelectedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/pause-btn_unavailable.png"))); // NOI18N
+        jToggleButton4.setDisabledIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/pause-btn_unavailable.png"))); // NOI18N
+        jToggleButton4.setDisabledSelectedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/pause-btn_unavailable.png"))); // NOI18N
         jToggleButton4.setEnabled(false);
         jToggleButton4.setMaximumSize(new Dimension(66, 40));
         jToggleButton4.setMinimumSize(new Dimension(66, 40));
         jToggleButton4.setPreferredSize(new Dimension(66, 40));
-        jToggleButton4.setRolloverIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/pause-btn_hover.png"))); // NOI18N
-        jToggleButton4.setSelectedIcon(new ImageIcon(getClass().getResource("/com/bixly/pastevid/resources/sb/recorder3/pause-btn_normal.png"))); // NOI18N
+        jToggleButton4.setRolloverIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/pause-btn_hover.png"))); // NOI18N
+        jToggleButton4.setSelectedIcon(new ImageIcon(getClass().getResource("/com/your-keystore-here/pastevid/resources/sb/recorder3/pause-btn_normal.png"))); // NOI18N
         jToggleButton4.addActionListener(formListener);
 
         GroupLayout recorderPanelBG1Layout = new GroupLayout(recorderPanelBG1);

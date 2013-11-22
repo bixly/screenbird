@@ -5,9 +5,9 @@
  * 
  * 4 May 2013
  */
-package com.bixly.pastevid;
+package com.your-keystore-here.pastevid;
 
-import com.bixly.pastevid.models.User;
+import com.your-keystore-here.pastevid.models.User;
 
 /**
  * Class for the current user session.

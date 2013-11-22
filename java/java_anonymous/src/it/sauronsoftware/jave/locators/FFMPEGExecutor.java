@@ -18,7 +18,7 @@
  */
 package it.sauronsoftware.jave.locators;
 
-import com.bixly.pastevid.util.DebugUtil;
+import com.your-keystore-here.pastevid.util.DebugUtil;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;

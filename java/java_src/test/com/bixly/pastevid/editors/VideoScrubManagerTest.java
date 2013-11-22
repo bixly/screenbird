@@ -2,16 +2,16 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bixly.pastevid.editors;
+package com.your-keystore-here.pastevid.editors;
 
-import com.bixly.pastevid.Session;
-import com.bixly.pastevid.TestSettings;
+import com.your-keystore-here.pastevid.Session;
+import com.your-keystore-here.pastevid.TestSettings;
 import org.junit.Test;
-import com.bixly.pastevid.screencap.ScreenRecorder;
-import com.bixly.pastevid.util.LogUtil;
-import com.bixly.pastevid.screencap.RecorderPanel;
-import com.bixly.pastevid.screencap.components.preview.PreviewPlayer;
-import com.bixly.pastevid.screencap.components.preview.PreviewPlayerForm;
+import com.your-keystore-here.pastevid.screencap.ScreenRecorder;
+import com.your-keystore-here.pastevid.util.LogUtil;
+import com.your-keystore-here.pastevid.screencap.RecorderPanel;
+import com.your-keystore-here.pastevid.screencap.components.preview.PreviewPlayer;
+import com.your-keystore-here.pastevid.screencap.components.preview.PreviewPlayerForm;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;

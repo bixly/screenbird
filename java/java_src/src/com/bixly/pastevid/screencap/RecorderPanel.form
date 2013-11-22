@@ -60,7 +60,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="com.bixly.pastevid.util.view.JRoundedPanel" name="jpRecorderNonRec">
+    <Container class="com.your-keystore-here.pastevid.util.view.JRoundedPanel" name="jpRecorderNonRec">
       <Properties>
         <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
           <Dimension value="[333, 44]"/>
@@ -90,7 +90,7 @@
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/timer.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/timer.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="00:00"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -124,7 +124,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/redButton.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/redButton.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Record"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -155,7 +155,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/x.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/x.png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
@@ -175,10 +175,10 @@
               <Dimension value="[24, 24]"/>
             </Property>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/x.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/x.png"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/x.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/x.png"/>
             </Property>
           </Properties>
           <Events>
@@ -229,7 +229,7 @@
               <Color blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/button-large-unpressed.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/button-large-unpressed.png"/>
             </Property>
             <Property name="selected" type="boolean" value="true"/>
             <Property name="text" type="java.lang.String" value="Fullscreen"/>
@@ -243,10 +243,10 @@
             <Property name="iconTextGap" type="int" value="0"/>
             <Property name="name" type="java.lang.String" value="toggleFullScreen" noResource="true"/>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/button-large-pressed.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/button-large-pressed.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/button-large-pressed.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/button-large-pressed.png"/>
             </Property>
           </Properties>
           <AccessibilityProperties>
@@ -270,7 +270,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/min.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/min.png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
@@ -290,10 +290,10 @@
               <Dimension value="[24, 24]"/>
             </Property>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/min.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/min.png"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/min.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/min.png"/>
             </Property>
           </Properties>
           <Events>
@@ -308,7 +308,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="com.bixly.pastevid.screencap.RecorderMessage" name="jpRecorderMessage">
+        <Component class="com.your-keystore-here.pastevid.screencap.RecorderMessage" name="jpRecorderMessage">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="10" y="50" width="310" height="40"/>
@@ -317,7 +317,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Container class="com.bixly.pastevid.util.view.JRoundedPanel" name="jpRecorderRec">
+    <Container class="com.your-keystore-here.pastevid.util.view.JRoundedPanel" name="jpRecorderRec">
       <Properties>
         <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
           <Dimension value="[244, 44]"/>
@@ -347,7 +347,7 @@
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/timer.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/timer.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="00:00"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -381,7 +381,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/redButton.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/redButton.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Stop"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -439,7 +439,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/min.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/min.png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
@@ -459,10 +459,10 @@
               <Dimension value="[24, 24]"/>
             </Property>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/min.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/min.png"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/min.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/min.png"/>
             </Property>
           </Properties>
           <Events>
@@ -479,7 +479,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Container class="com.bixly.pastevid.util.view.JRoundedPanel" name="jpRecorderBackup">
+    <Container class="com.your-keystore-here.pastevid.util.view.JRoundedPanel" name="jpRecorderBackup">
       <Properties>
         <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
           <Dimension value="[333, 44]"/>
@@ -509,7 +509,7 @@
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/timer.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/timer.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="00:00"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -543,7 +543,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/check-red.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/check-red.png"/>
             </Property>
             <Property name="enabled" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -558,7 +558,7 @@
               <Dimension value="[24, 24]"/>
             </Property>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/check-red-pressed.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/check-red-pressed.png"/>
             </Property>
           </Properties>
           <Events>
@@ -579,7 +579,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/x.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/x.png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
@@ -599,10 +599,10 @@
               <Dimension value="[24, 24]"/>
             </Property>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/x.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/x.png"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/x.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/x.png"/>
             </Property>
           </Properties>
           <Events>
@@ -653,7 +653,7 @@
               <Color blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/button-large-unpressed.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/button-large-unpressed.png"/>
             </Property>
             <Property name="selected" type="boolean" value="true"/>
             <Property name="text" type="java.lang.String" value="Fullscreen"/>
@@ -667,10 +667,10 @@
             <Property name="iconTextGap" type="int" value="0"/>
             <Property name="name" type="java.lang.String" value="toggleFullScreen" noResource="true"/>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/button-large-pressed.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/button-large-pressed.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/button-large-pressed.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/button-large-pressed.png"/>
             </Property>
           </Properties>
           <Events>
@@ -682,7 +682,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="com.bixly.pastevid.screencap.RecorderMessage" name="jpRecorderMessageBackup">
+        <Component class="com.your-keystore-here.pastevid.screencap.RecorderMessage" name="jpRecorderMessageBackup">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="10" y="50" width="310" height="30"/>
@@ -698,7 +698,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/min.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/min.png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
@@ -718,10 +718,10 @@
               <Dimension value="[24, 24]"/>
             </Property>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/min.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/min.png"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/min.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/min.png"/>
             </Property>
           </Properties>
           <Events>
@@ -745,7 +745,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/record.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/record.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value=""/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -760,7 +760,7 @@
               <Dimension value="[24, 24]"/>
             </Property>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/record-pressed.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/record-pressed.png"/>
             </Property>
           </Properties>
           <Events>
@@ -924,15 +924,15 @@
         <Component class="javax.swing.JButton" name="btnPlay">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/upload/play_normal.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/upload/play_normal.png"/>
             </Property>
             <Property name="borderPainted" type="boolean" value="false"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/upload/play_pushed.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/upload/play_pushed.png"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/upload/play_upload.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/upload/play_upload.png"/>
             </Property>
           </Properties>
           <Events>
@@ -974,10 +974,10 @@
             </Property>
             <Property name="text" type="java.lang.String" value="Auto Upload"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/upload/checkbox_unchecked.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/upload/checkbox_unchecked.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/upload/checkbox_checked.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/upload/checkbox_checked.png"/>
             </Property>
           </Properties>
           <Events>
@@ -1000,10 +1000,10 @@
             </Property>
             <Property name="text" type="java.lang.String" value="Public"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/upload/checkbox_unchecked.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/upload/checkbox_unchecked.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/upload/checkbox_checked.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/upload/checkbox_checked.png"/>
             </Property>
           </Properties>
           <Events>
@@ -1066,15 +1066,15 @@
         <Component class="javax.swing.JButton" name="btnUpload">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/upload/upload_normal.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/upload/upload_normal.png"/>
             </Property>
             <Property name="borderPainted" type="boolean" value="false"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/upload/upload_pushed.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/upload/upload_pushed.png"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/upload/upload_hover.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/upload/upload_hover.png"/>
             </Property>
           </Properties>
           <Events>
@@ -1087,15 +1087,15 @@
         <Component class="javax.swing.JButton" name="btnSaveAs">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/upload/save-a-copy_normal.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/upload/save-a-copy_normal.png"/>
             </Property>
             <Property name="borderPainted" type="boolean" value="false"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/upload/save-a-copy_pushed.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/upload/save-a-copy_pushed.png"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/upload/save-a-copy_hover.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/upload/save-a-copy_hover.png"/>
             </Property>
           </Properties>
           <Events>
@@ -1232,7 +1232,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/close_normal.png"/>
+                  <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/close_normal.png"/>
                 </Property>
                 <Property name="alignmentY" type="float" value="0.0"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -1255,10 +1255,10 @@
                   <Dimension value="[42, 16]"/>
                 </Property>
                 <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/close_normal.png"/>
+                  <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/close_normal.png"/>
                 </Property>
                 <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/close_hover.png"/>
+                  <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/close_hover.png"/>
                 </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
               </Properties>
@@ -1278,7 +1278,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/minimize_normal.png"/>
+                  <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/minimize_normal.png"/>
                 </Property>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="null"/>
@@ -1302,10 +1302,10 @@
                   <Dimension value="[21, 16]"/>
                 </Property>
                 <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/minimize_normal.png"/>
+                  <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/minimize_normal.png"/>
                 </Property>
                 <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/minimize_hover.png"/>
+                  <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/minimize_hover.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -1333,7 +1333,7 @@
         </Container>
       </SubComponents>
     </Container>
-    <Container class="com.bixly.pastevid.screencap.RecorderPanelBG" name="recorderPanelBG1">
+    <Container class="com.your-keystore-here.pastevid.screencap.RecorderPanelBG" name="recorderPanelBG1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1415,7 +1415,7 @@
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/close_normal.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/close_normal.png"/>
             </Property>
             <Property name="borderPainted" type="boolean" value="false"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
@@ -1431,7 +1431,7 @@
               <Dimension value="[42, 17]"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/close_hover.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/close_hover.png"/>
             </Property>
           </Properties>
           <Events>
@@ -1441,7 +1441,7 @@
         <Component class="javax.swing.JButton" name="jButton2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/minimize_normal.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/minimize_normal.png"/>
             </Property>
             <Property name="borderPainted" type="boolean" value="false"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
@@ -1458,7 +1458,7 @@
               <Dimension value="[21, 17]"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/minimize_hover.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/minimize_hover.png"/>
             </Property>
           </Properties>
           <Events>
@@ -1482,16 +1482,16 @@
         <Component class="javax.swing.JToggleButton" name="jToggleButton1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/record-area-btn_normal.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/record-area-btn_normal.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Capture part of the screen"/>
             <Property name="borderPainted" type="boolean" value="false"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="disabledIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/record-area-btn_unavailable.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/record-area-btn_unavailable.png"/>
             </Property>
             <Property name="disabledSelectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/record-area-btn_unavailable.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/record-area-btn_unavailable.png"/>
             </Property>
             <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
               <Dimension value="[66, 40]"/>
@@ -1503,13 +1503,13 @@
               <Dimension value="[66, 40]"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/record-area-btn_hover.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/record-area-btn_hover.png"/>
             </Property>
             <Property name="rolloverSelectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/record-area-btn_active.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/record-area-btn_active.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/record-area-btn_active.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/record-area-btn_active.png"/>
             </Property>
           </Properties>
           <Events>
@@ -1519,16 +1519,16 @@
         <Component class="javax.swing.JToggleButton" name="jToggleButton2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/full-screen-record-btn_normal.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/full-screen-record-btn_normal.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Capture entire screen"/>
             <Property name="borderPainted" type="boolean" value="false"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="disabledIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/full-screen-record-btn_unavailable.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/full-screen-record-btn_unavailable.png"/>
             </Property>
             <Property name="disabledSelectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/full-screen-record-btn_unavailable.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/full-screen-record-btn_unavailable.png"/>
             </Property>
             <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
               <Dimension value="[66, 40]"/>
@@ -1540,13 +1540,13 @@
               <Dimension value="[66, 40]"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/full-screen-record-btn_hover.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/full-screen-record-btn_hover.png"/>
             </Property>
             <Property name="rolloverSelectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/full-screen-record-btn_active.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/full-screen-record-btn_active.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/full-screen-record-btn_active.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/full-screen-record-btn_active.png"/>
             </Property>
           </Properties>
           <Events>
@@ -1567,16 +1567,16 @@
         <Component class="javax.swing.JToggleButton" name="jToggleButton3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/record-btn_normal.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/record-btn_normal.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Record"/>
             <Property name="borderPainted" type="boolean" value="false"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="disabledIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/record-btn_unavailable.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/record-btn_unavailable.png"/>
             </Property>
             <Property name="disabledSelectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/record-btn_unavailable.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/record-btn_unavailable.png"/>
             </Property>
             <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
               <Dimension value="[66, 40]"/>
@@ -1588,17 +1588,17 @@
               <Dimension value="[66, 40]"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/record-btn_hover.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/record-btn_hover.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/record-btn_active.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/record-btn_active.png"/>
             </Property>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton3ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="com.bixly.pastevid.screencap.SoundBar" name="soundBar1">
+        <Component class="com.your-keystore-here.pastevid.screencap.SoundBar" name="soundBar1">
           <Properties>
             <Property name="borderPainted" type="boolean" value="false"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -1607,16 +1607,16 @@
         <Component class="javax.swing.JToggleButton" name="jToggleButton4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/pause-btn_normal.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/pause-btn_normal.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Pause"/>
             <Property name="borderPainted" type="boolean" value="false"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="disabledIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/pause-btn_unavailable.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/pause-btn_unavailable.png"/>
             </Property>
             <Property name="disabledSelectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/pause-btn_unavailable.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/pause-btn_unavailable.png"/>
             </Property>
             <Property name="enabled" type="boolean" value="false"/>
             <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -1629,10 +1629,10 @@
               <Dimension value="[66, 40]"/>
             </Property>
             <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/pause-btn_hover.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/pause-btn_hover.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/bixly/pastevid/resources/sb/recorder3/pause-btn_normal.png"/>
+              <Image iconType="3" name="/com/your-keystore-here/pastevid/resources/sb/recorder3/pause-btn_normal.png"/>
             </Property>
           </Properties>
           <Events>
